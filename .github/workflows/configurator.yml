@@ -1,0 +1,22 @@
+name: Configurator checks
+on:
+  push:
+    paths: ['configurator/**', '.github/workflows/configurator.yml', 'Centerpieces/**', 'Sidepieces/**', 'Accessories/**']
+  pull_request:
+    paths: ['configurator/**', '.github/workflows/configurator.yml', 'Centerpieces/**', 'Sidepieces/**', 'Accessories/**']
+permissions:
+  contents: read
+jobs:
+  catalog-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: node --test configurator/tests/assembly.test.js
+      - run: python3 -m unittest discover -s configurator/tests -p 'test_*.py'
+      - run: python3 configurator/scripts/build.py

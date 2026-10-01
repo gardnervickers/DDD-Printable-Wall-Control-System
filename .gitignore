@@ -6,3 +6,7 @@
 *.FCStd[0-9]*
 thumbs.db
 *.DS_Store
+
+# Configurator build output
+configurator/dist/
+__pycache__/
