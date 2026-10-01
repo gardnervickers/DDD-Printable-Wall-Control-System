@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import {STLLoader} from './vendor/three/STLLoader.js';
 import {OrbitControls} from './vendor/three/OrbitControls.js';
+import {panelLayout} from './panel.js';
 import {validateCatalog, compatibleAssemblies, billOfMaterials} from './assembly.js';
 
 const $ = id => document.getElementById(id);
@@ -8,7 +9,7 @@ const status = message => { $('preview-status').textContent = message; };
 const assetURL = file => './assets/' + file.split('/').map(encodeURIComponent).join('/');
 const degrees = values => values.map(n => n * Math.PI / 180);
 const colors = {centerpiece: 0xb4bf95, sidepiece: 0xc5c9b5, accessory: 0xab7552};
-let catalog, center, assembly, choices = [], family, exploded = false, revision = 0;
+let catalog, center, assembly, choices = [], family, exploded = false, rearView = false, revision = 0;
 let renderer, scene, camera, controls, assemblyGroup, wallGroup;
 const dataCache = new Map();
 
@@ -58,32 +59,46 @@ function setupPreview() {
   }).observe(container);
   renderer.setAnimationLoop(() => {controls.update(); renderer.render(scene, camera);});
 }
-function wall(width, height) {
+function wall(selected) {
   disposeGroup(wallGroup);
   wallGroup = new THREE.Group();
-  const w = Math.max(width + 80, 180), h = Math.max(height + 75, 170);
-  const plane = new THREE.Mesh(new THREE.BoxGeometry(w, h, 2), new THREE.MeshStandardMaterial({color: 0xd9dcce, roughness: .85}));
-  plane.position.set(0, height / 2, -3); wallGroup.add(plane);
-  const slots = new THREE.InstancedMesh(new THREE.BoxGeometry(2.5, 20, .2), new THREE.MeshBasicMaterial({color: 0xb9bfae}), 400);
-  const holes = new THREE.InstancedMesh(new THREE.CircleGeometry(2.7, 16), new THREE.MeshBasicMaterial({color: 0xb9bfae}), 400);
-  let count = 0;
-  const matrix = new THREE.Matrix4();
-  for (let x = -Math.floor(w / 50.8) * 25.4; x < w / 2 - 8; x += 25.4) for (let y = -25.4; y < height / 2 + h / 2 - 10; y += 25.4) {
-    if (count >= 400) break;
-    matrix.makeTranslation(x, y, -1.9); slots.setMatrixAt(count, matrix);
-    matrix.makeTranslation(x + 12.7, y + 12.7, -1.85); holes.setMatrixAt(count, matrix); count++;
+  const layout = panelLayout(selected);
+  if (!layout) return;
+  const {left, right, bottom, top} = layout.bounds;
+  const shape = new THREE.Shape();
+  shape.moveTo(left, bottom); shape.lineTo(right, bottom);
+  shape.lineTo(right, top); shape.lineTo(left, top); shape.closePath();
+  for (const slot of layout.slots) {
+    const hole = new THREE.Path();
+    const x = slot.x, y = slot.y, w = slot.width / 2, h = slot.height / 2;
+    hole.moveTo(x-w, y-h); hole.lineTo(x-w, y+h);
+    hole.lineTo(x+w, y+h); hole.lineTo(x+w, y-h); hole.closePath();
+    shape.holes.push(hole);
   }
-  slots.count = holes.count = count;
-  wallGroup.add(slots, holes); scene.add(wallGroup);
+  for (const circle of layout.holes) {
+    const hole = new THREE.Path();
+    hole.absarc(circle.x, circle.y, circle.radius, 0, Math.PI * 2, true);
+    shape.holes.push(hole);
+  }
+  const geometry = new THREE.ExtrudeGeometry(shape, {depth:layout.thickness, bevelEnabled:false, curveSegments:12});
+  geometry.translate(0, 0, -layout.thickness);
+  const panel = new THREE.Mesh(geometry, new THREE.MeshStandardMaterial({color:0xd9dcce, roughness:.85}));
+  wallGroup.add(panel); scene.add(wallGroup);
 }
-function resetCamera() {
+function resetCamera(rear = false) {
   if (!assemblyGroup) return;
+  rearView = rear;
+  $('rear').textContent = rear ? 'Front view' : 'Rear view';
   const box = new THREE.Box3().setFromObject(assemblyGroup);
   const target = box.getCenter(new THREE.Vector3());
   const span = Math.max(box.getSize(new THREE.Vector3()).length(), 85);
   controls.target.copy(target);
-  camera.position.copy(target).add(new THREE.Vector3(span * .8, span * .48, span * 1.8));
-  camera.lookAt(target); controls.update();
+  const verticalHalfFov = THREE.MathUtils.degToRad(camera.fov / 2);
+  const horizontalHalfFov = Math.atan(Math.tan(verticalHalfFov) * camera.aspect);
+  const distance = (span / 2) / Math.sin(Math.min(verticalHalfFov, horizontalHalfFov)) * 1.12;
+  const direction = new THREE.Vector3(.8, .48, rear ? -1.8 : 1.8).normalize();
+  camera.position.copy(target).addScaledVector(direction, distance);
+  camera.lookAt(target); controls.update(); renderer.render(scene, camera);
 }
 function pose() {
   if (!assemblyGroup) return;
@@ -96,6 +111,7 @@ function pose() {
       if (part.kind === 'accessory') mesh.position.z += 42;
     }
   }
+  renderer.render(scene, camera);
 }
 async function preview() {
   const thisRevision = ++revision;
@@ -121,7 +137,7 @@ async function preview() {
       group.add(mesh);
     }
     disposeGroup(assemblyGroup); assemblyGroup = group; scene.add(group);
-    wall(center.width * 25.4, selected.parts[1].part.height * 25.4);
+    wall(selected);
     pose(); resetCamera(); status('');
     window.__previewReady = thisRevision;
   } catch (error) {disposeGroup(group); disposeGroup(assemblyGroup); assemblyGroup = null; status(error.message);}
@@ -215,7 +231,7 @@ async function download() {
 }
 
 try {
-  const response = await fetch('./catalog/parts.json');
+  const response = await fetch('./catalog/parts.json?v=2');
   if (!response.ok) throw new Error('Could not load the part catalog.');
   catalog = validateCatalog(await response.json());
   try {setupPreview();} catch (error) {status('3D preview unavailable. Part selection and downloads still work.'); console.error(error);}
@@ -224,5 +240,5 @@ try {
   $('height').onchange = () => dimensions(); $('width').onchange = selectCenter; $('panel').onchange = selectCenter; $('search').oninput = familyList;
   $('assembled').onclick = () => {exploded = false; $('assembled').classList.add('active'); $('exploded').classList.remove('active'); $('assembled').setAttribute('aria-pressed','true'); $('exploded').setAttribute('aria-pressed','false'); pose();};
   $('exploded').onclick = () => {exploded = true; $('assembled').classList.remove('active'); $('exploded').classList.add('active'); $('assembled').setAttribute('aria-pressed','false'); $('exploded').setAttribute('aria-pressed','true'); pose();};
-  $('reset').onclick = resetCamera; $('download').onclick = download;
+  $('reset').onclick = () => resetCamera(); $('rear').onclick = () => resetCamera(!rearView); $('download').onclick = download;
 } catch (error) {status(error.message); $('coverage').textContent = 'Catalog unavailable';}

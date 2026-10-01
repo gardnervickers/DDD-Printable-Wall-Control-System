@@ -11,7 +11,7 @@ def build():
     if DEST.exists():
         shutil.rmtree(DEST)
     DEST.mkdir()
-    for name in ('index.html', 'app.js', 'assembly.js', 'style.css'):
+    for name in ('index.html', 'app.js', 'assembly.js', 'panel.js', 'style.css'):
         shutil.copy2(APP / name, DEST / name)
     for name in ('vendor', 'catalog'):
         shutil.copytree(APP / name, DEST / name)

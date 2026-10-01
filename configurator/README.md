@@ -34,7 +34,7 @@ nix develop --command python3 -m unittest discover -s configurator/tests -p 'tes
 nix develop --command python3 configurator/scripts/build.py
 ```
 
-The Python tests independently ray-test socket voids and their surrounding walls, verify declared integral pin rows, check clip-on pin sockets, compare all asset hashes, and check reproducible import. They verify geometric samples, not complete collision freedom, printability, load ratings, or physical fit.
+The Python tests independently ray-test socket voids, insertion-axis openings, and surrounding walls; verify pin rows and clip-on sockets; confirm catches extend behind the panel; compare all asset hashes; and check reproducible import. Node checks verify all seated catches align with the panel slot grid. The panel has actual through-openings, and the Rear view control exposes the engagement. They verify geometric samples, not complete collision freedom, printability, load ratings, or physical fit.
 
 Optional browser acceptance tests use Playwright 1.62.1. With Playwright available to Node, and the built site running:
 

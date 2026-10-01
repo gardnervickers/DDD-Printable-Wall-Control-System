@@ -45,23 +45,33 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          -90,
           0
         ],
         "translation": [
-          -14.350000762939453,
+          0,
           49.599999237060544,
-          0
+          -9.999999999999977
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            -1.1,
+            12.599999999999998,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -108,23 +118,33 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          90,
           0
         ],
         "translation": [
-          -61.14999923706055,
+          0,
           49.599999237060544,
-          0
+          65.5
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            1.1,
+            12.599999999999998,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -171,23 +191,33 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          -90,
           0
         ],
         "translation": [
-          -71.8499969482422,
+          0,
           -7.629394556118996e-07,
-          0
+          -67.5
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            -1.1,
+            38.0,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -199,9 +229,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -248,23 +278,33 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          90,
           0
         ],
         "translation": [
-          -118.6500030517578,
+          0,
           -7.629394556118996e-07,
-          0
+          123.0
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            1.1,
+            38.0,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -276,9 +316,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -325,23 +365,41 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          -90,
           0
         ],
         "translation": [
-          -97.2499984741211,
+          0,
           -63.50000610351564,
-          0
+          -92.9000015258789
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            -1.1,
+            63.39999999999999,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            12.599999999999994,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -353,9 +411,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -367,9 +425,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -416,23 +474,41 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          90,
           0
         ],
         "translation": [
-          -144.04999694824218,
+          0,
           -63.50000610351564,
-          0
+          148.39999389648438
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            1.1,
+            63.39999999999999,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            12.599999999999994,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -444,9 +520,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -458,9 +534,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -507,23 +583,41 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          -90,
           0
         ],
         "translation": [
-          -71.8499969482422,
+          0,
           -76.19999694824219,
-          0
+          -67.5
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            -1.1,
+            88.8,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            38.0,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -535,9 +629,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -549,9 +643,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -563,9 +657,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -612,23 +706,41 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          90,
           0
         ],
         "translation": [
-          -118.6500030517578,
+          0,
           -76.19999694824219,
-          0
+          123.0
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            1.1,
+            88.8,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            38.0,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -640,9 +752,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -654,9 +766,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -668,9 +780,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -717,23 +829,49 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          -90,
           0
         ],
         "translation": [
-          -97.2499984741211,
+          0,
           -266.70000610351565,
-          0
+          -92.9000015258789
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            -1.1,
+            114.2,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            63.400000000000006,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            12.600000000000009,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -745,9 +883,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -759,9 +897,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -773,9 +911,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -787,9 +925,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             114.19999999999999,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -836,23 +974,49 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          90,
           0
         ],
         "translation": [
-          -144.04999694824218,
+          0,
           -266.70000610351565,
-          0
+          148.39999389648438
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            1.1,
+            114.2,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            63.400000000000006,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            12.600000000000009,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -864,9 +1028,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -878,9 +1042,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -892,9 +1056,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -906,9 +1070,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             114.19999999999999,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -955,23 +1119,49 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          -90,
           0
         ],
         "translation": [
-          -14.35000076293945,
+          0,
           -406.4000122070313,
-          0
+          -9.999999999994087
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            -1.1,
+            139.59999999999997,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            88.79999999999997,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            37.99999999999997,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -983,9 +1173,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -997,9 +1187,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1011,9 +1201,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1025,9 +1215,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             114.19999999999999,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1039,9 +1229,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             139.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1088,23 +1278,49 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          90,
           0
         ],
         "translation": [
-          -61.14999923706055,
+          0,
           -406.4000122070313,
-          0
+          65.5
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            1.1,
+            139.59999999999997,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            88.79999999999997,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            37.99999999999997,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1116,9 +1332,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1130,9 +1346,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1144,9 +1360,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1158,9 +1374,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             114.19999999999999,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1172,9 +1388,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             139.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1221,23 +1437,57 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          -90,
           0
         ],
         "translation": [
-          -14.35000076293945,
+          0,
           -581.0000122070313,
-          0
+          -10.000000000038309
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            -1.1,
+            164.99999999999997,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            114.19999999999997,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            63.39999999999998,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            12.599999999999994,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1249,9 +1499,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1263,9 +1513,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1277,9 +1527,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1291,9 +1541,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             114.19999999999999,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1305,9 +1555,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             139.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1319,9 +1569,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             164.99999999999997,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1368,23 +1618,57 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          90,
           0
         ],
         "translation": [
-          -61.14999923706055,
+          0,
           -581.0000122070313,
-          0
+          65.5
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            1.1,
+            164.99999999999997,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            114.19999999999997,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            63.39999999999998,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            12.599999999999994,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1396,9 +1680,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1410,9 +1694,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1424,9 +1708,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1438,9 +1722,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             114.19999999999999,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1452,9 +1736,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             139.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1466,9 +1750,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             164.99999999999997,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1515,23 +1799,57 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          -90,
           0
         ],
         "translation": [
-          -14.35000076293945,
+          0,
           -780.6000122070312,
-          0
+          -10.000000000080885
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            -1.1,
+            190.39999999999998,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            139.59999999999997,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            88.79999999999998,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            38.0,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1543,9 +1861,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1557,9 +1875,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1571,9 +1889,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1585,9 +1903,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             114.19999999999999,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1599,9 +1917,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             139.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1613,9 +1931,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             164.99999999999997,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1627,9 +1945,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            0,
+            -1.1,
             190.39999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1676,23 +1994,57 @@
       "transform": {
         "rotation": [
           0,
-          0,
+          90,
           0
         ],
         "translation": [
-          -61.14999923706055,
+          0,
           -780.6000122070312,
-          0
+          65.5
         ]
       },
+      "panelAttachments": [
+        {
+          "position": [
+            1.1,
+            190.39999999999998,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            139.59999999999997,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            88.79999999999998,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            38.0,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
       "ports": [
         {
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1704,9 +2056,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1718,9 +2070,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1732,9 +2084,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1746,9 +2098,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             114.19999999999999,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1760,9 +2112,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             139.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1774,9 +2126,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             164.99999999999997,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1788,9 +2140,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            0,
+            1.1,
             190.39999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1843,7 +2195,7 @@
         "translation": [
           -842.1000061035156,
           -701.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -1851,9 +2203,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1865,9 +2217,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1920,7 +2272,7 @@
         "translation": [
           -778.6000061035156,
           -701.2000122070312,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -1928,9 +2280,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -1942,9 +2294,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -1997,7 +2349,7 @@
         "translation": [
           -689.7000122070312,
           -701.1986083984375,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -2005,9 +2357,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2019,9 +2371,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2074,7 +2426,7 @@
         "translation": [
           -575.4000244140625,
           -701.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -2082,9 +2434,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2096,9 +2448,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2151,7 +2503,7 @@
         "translation": [
           -438.1000061035156,
           -701.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -2159,9 +2511,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2173,9 +2525,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2228,7 +2580,7 @@
         "translation": [
           -276.2000045776367,
           -701.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -2236,9 +2588,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2250,9 +2602,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2305,7 +2657,7 @@
         "translation": [
           -88.50000309944153,
           -701.1993408203125,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -2313,9 +2665,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2327,9 +2679,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2382,7 +2734,7 @@
         "translation": [
           -842.1000061035156,
           -626.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -2390,9 +2742,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2404,9 +2756,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2418,9 +2770,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2432,9 +2784,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2487,7 +2839,7 @@
         "translation": [
           -778.6000061035156,
           -626.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -2495,9 +2847,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2509,9 +2861,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2523,9 +2875,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2537,9 +2889,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2592,7 +2944,7 @@
         "translation": [
           -689.7000122070312,
           -626.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -2600,9 +2952,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2614,9 +2966,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2628,9 +2980,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2642,9 +2994,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2697,7 +3049,7 @@
         "translation": [
           -575.4000244140625,
           -626.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -2705,9 +3057,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2719,9 +3071,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2733,9 +3085,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2747,9 +3099,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2802,7 +3154,7 @@
         "translation": [
           -438.09999084472656,
           -626.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -2810,9 +3162,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2824,9 +3176,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2838,9 +3190,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2852,9 +3204,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2907,7 +3259,7 @@
         "translation": [
           -276.2000045776367,
           -626.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -2915,9 +3267,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2929,9 +3281,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -2943,9 +3295,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -2957,9 +3309,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3012,7 +3364,7 @@
         "translation": [
           -88.50000309944153,
           -626.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -3020,9 +3372,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3034,9 +3386,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3048,9 +3400,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3062,9 +3414,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3117,7 +3469,7 @@
         "translation": [
           -842.1000061035156,
           -526.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -3125,9 +3477,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3139,9 +3491,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3153,9 +3505,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3167,9 +3519,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3181,9 +3533,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3195,9 +3547,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3250,7 +3602,7 @@
         "translation": [
           -778.6000061035156,
           -526.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -3258,9 +3610,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3272,9 +3624,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3286,9 +3638,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3300,9 +3652,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3314,9 +3666,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3328,9 +3680,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3383,7 +3735,7 @@
         "translation": [
           -689.7000122070312,
           -526.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -3391,9 +3743,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3405,9 +3757,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3419,9 +3771,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3433,9 +3785,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3447,9 +3799,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3461,9 +3813,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3516,7 +3868,7 @@
         "translation": [
           -575.4000244140625,
           -526.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -3524,9 +3876,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3538,9 +3890,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3552,9 +3904,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3566,9 +3918,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3580,9 +3932,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3594,9 +3946,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3649,7 +4001,7 @@
         "translation": [
           -438.1000061035156,
           -526.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -3657,9 +4009,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3671,9 +4023,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3685,9 +4037,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3699,9 +4051,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3713,9 +4065,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3727,9 +4079,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3782,7 +4134,7 @@
         "translation": [
           -275.40000915527344,
           -526.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -3790,9 +4142,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3804,9 +4156,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3818,9 +4170,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3832,9 +4184,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3846,9 +4198,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3860,9 +4212,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3915,7 +4267,7 @@
         "translation": [
           -87.70000147819519,
           -526.1994018554688,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -3923,9 +4275,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3937,9 +4289,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3951,9 +4303,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -3965,9 +4317,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3979,9 +4331,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -3993,9 +4345,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4048,7 +4400,7 @@
         "translation": [
           -842.0999226619091,
           -526.200000000003,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -4056,9 +4408,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4070,9 +4422,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4084,9 +4436,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4098,9 +4450,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4112,9 +4464,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4126,9 +4478,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4140,9 +4492,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4154,9 +4506,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4209,7 +4561,7 @@
         "translation": [
           -778.5999226619094,
           -526.200000000003,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -4217,9 +4569,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4231,9 +4583,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4245,9 +4597,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4259,9 +4611,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4273,9 +4625,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4287,9 +4639,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4301,9 +4653,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4315,9 +4667,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4370,7 +4722,7 @@
         "translation": [
           -689.6999226619096,
           -526.200000000003,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -4378,9 +4730,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4392,9 +4744,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4406,9 +4758,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4420,9 +4772,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4434,9 +4786,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4448,9 +4800,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4462,9 +4814,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4476,9 +4828,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4531,7 +4883,7 @@
         "translation": [
           -575.3999226619089,
           -526.200000000003,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -4539,9 +4891,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4553,9 +4905,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4567,9 +4919,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4581,9 +4933,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4595,9 +4947,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4609,9 +4961,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4623,9 +4975,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4637,9 +4989,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4692,7 +5044,7 @@
         "translation": [
           -438.0999209641593,
           -526.200000000003,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -4700,9 +5052,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4714,9 +5066,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4728,9 +5080,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4742,9 +5094,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4756,9 +5108,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4770,9 +5122,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4784,9 +5136,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4798,9 +5150,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4853,7 +5205,7 @@
         "translation": [
           -275.39992096415835,
           -526.200000000003,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -4861,9 +5213,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4875,9 +5227,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4889,9 +5241,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4903,9 +5255,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -4917,9 +5269,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4931,9 +5283,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4945,9 +5297,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -4959,9 +5311,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5014,7 +5366,7 @@
         "translation": [
           -87.69992096416009,
           -526.200000000003,
-          -2.55
+          0
         ]
       },
       "ports": [
@@ -5022,9 +5374,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -5036,9 +5388,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -5050,9 +5402,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -5064,9 +5416,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -5078,9 +5430,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5092,9 +5444,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5106,9 +5458,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5120,9 +5472,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             88.79999999999998,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5175,7 +5527,7 @@
         "translation": [
           -776.2000122070312,
           -375.6000061035156,
-          -2.35
+          0
         ]
       },
       "ports": [
@@ -5183,9 +5535,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -5197,9 +5549,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -5211,9 +5563,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5225,9 +5577,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5243,7 +5595,7 @@
           "position": [
             -24.2,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5257,7 +5609,7 @@
           "position": [
             -24.2,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5271,7 +5623,7 @@
           "position": [
             24.2,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5285,7 +5637,7 @@
           "position": [
             24.2,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5337,7 +5689,7 @@
         "translation": [
           -688.5,
           -375.6000061035156,
-          -2.35
+          0
         ]
       },
       "ports": [
@@ -5345,9 +5697,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -5359,9 +5711,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -5373,9 +5725,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5387,9 +5739,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5405,7 +5757,7 @@
           "position": [
             -36.89999999999999,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5419,7 +5771,7 @@
           "position": [
             -36.89999999999999,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5433,7 +5785,7 @@
           "position": [
             36.89999999999999,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5447,7 +5799,7 @@
           "position": [
             36.89999999999999,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5499,7 +5851,7 @@
         "translation": [
           -575.8000183105469,
           -375.6000061035156,
-          -2.35
+          0
         ]
       },
       "ports": [
@@ -5507,9 +5859,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -5521,9 +5873,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -5535,9 +5887,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5549,9 +5901,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5567,7 +5919,7 @@
           "position": [
             -49.599999999999994,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5581,7 +5933,7 @@
           "position": [
             -49.599999999999994,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5595,7 +5947,7 @@
           "position": [
             49.599999999999994,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5609,7 +5961,7 @@
           "position": [
             49.599999999999994,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5661,7 +6013,7 @@
         "translation": [
           -438.09999084472656,
           -375.6000061035156,
-          -2.35
+          0
         ]
       },
       "ports": [
@@ -5669,9 +6021,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -5683,9 +6035,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -5697,9 +6049,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5711,9 +6063,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5729,7 +6081,7 @@
           "position": [
             -62.3,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5743,7 +6095,7 @@
           "position": [
             -62.3,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5757,7 +6109,7 @@
           "position": [
             62.3,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5771,7 +6123,7 @@
           "position": [
             62.3,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5823,7 +6175,7 @@
         "translation": [
           -275.3999938964844,
           -375.6000061035156,
-          -2.35
+          0
         ]
       },
       "ports": [
@@ -5831,9 +6183,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -5845,9 +6197,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -5859,9 +6211,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5873,9 +6225,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -5891,7 +6243,7 @@
           "position": [
             -74.99999999999999,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5905,7 +6257,7 @@
           "position": [
             -74.99999999999999,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5919,7 +6271,7 @@
           "position": [
             74.99999999999999,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5933,7 +6285,7 @@
           "position": [
             74.99999999999999,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -5985,7 +6337,7 @@
         "translation": [
           -87.69999694824206,
           -375.6000061035156,
-          -2.35
+          0
         ]
       },
       "ports": [
@@ -5993,9 +6345,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -6007,9 +6359,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -6021,9 +6373,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -6035,9 +6387,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -6053,7 +6405,7 @@
           "position": [
             -87.69999999999999,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6067,7 +6419,7 @@
           "position": [
             -87.69999999999999,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6081,7 +6433,7 @@
           "position": [
             87.69999999999999,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6095,7 +6447,7 @@
           "position": [
             87.69999999999999,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6147,7 +6499,7 @@
         "translation": [
           -776.2000122070312,
           -175.60000610351562,
-          -2.35
+          0
         ]
       },
       "ports": [
@@ -6155,9 +6507,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -6169,9 +6521,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -6183,9 +6535,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -6197,9 +6549,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -6211,9 +6563,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -6225,9 +6577,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -6243,7 +6595,7 @@
           "position": [
             -24.2,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6257,7 +6609,7 @@
           "position": [
             -24.2,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6271,7 +6623,7 @@
           "position": [
             -24.2,
             63.4,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6285,7 +6637,7 @@
           "position": [
             24.2,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6299,7 +6651,7 @@
           "position": [
             24.2,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6313,7 +6665,7 @@
           "position": [
             24.2,
             63.4,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6365,7 +6717,7 @@
         "translation": [
           -688.5,
           -175.60000610351562,
-          -2.35
+          0
         ]
       },
       "ports": [
@@ -6373,9 +6725,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -6387,9 +6739,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -6401,9 +6753,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -6415,9 +6767,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -6429,9 +6781,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -6443,9 +6795,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -6461,7 +6813,7 @@
           "position": [
             -36.89999999999999,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6475,7 +6827,7 @@
           "position": [
             -36.89999999999999,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6489,7 +6841,7 @@
           "position": [
             -36.89999999999999,
             63.4,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6503,7 +6855,7 @@
           "position": [
             36.89999999999999,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6517,7 +6869,7 @@
           "position": [
             36.89999999999999,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6531,7 +6883,7 @@
           "position": [
             36.89999999999999,
             63.4,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6583,7 +6935,7 @@
         "translation": [
           -575.8000183105469,
           -175.60000610351562,
-          -2.35
+          0
         ]
       },
       "ports": [
@@ -6591,9 +6943,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -6605,9 +6957,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -6619,9 +6971,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -6633,9 +6985,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -6647,9 +6999,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -6661,9 +7013,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -6679,7 +7031,7 @@
           "position": [
             -49.599999999999994,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6693,7 +7045,7 @@
           "position": [
             -49.599999999999994,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6707,7 +7059,7 @@
           "position": [
             -49.599999999999994,
             63.4,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6721,7 +7073,7 @@
           "position": [
             49.599999999999994,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6735,7 +7087,7 @@
           "position": [
             49.599999999999994,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6749,7 +7101,7 @@
           "position": [
             49.599999999999994,
             63.4,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6801,7 +7153,7 @@
         "translation": [
           -438.09999084472656,
           -175.60000610351562,
-          -2.35
+          0
         ]
       },
       "ports": [
@@ -6809,9 +7161,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -6823,9 +7175,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -6837,9 +7189,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -6851,9 +7203,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -6865,9 +7217,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -6879,9 +7231,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -6897,7 +7249,7 @@
           "position": [
             -62.3,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6911,7 +7263,7 @@
           "position": [
             -62.3,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6925,7 +7277,7 @@
           "position": [
             -62.3,
             63.4,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6939,7 +7291,7 @@
           "position": [
             62.3,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6953,7 +7305,7 @@
           "position": [
             62.3,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -6967,7 +7319,7 @@
           "position": [
             62.3,
             63.4,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -7019,7 +7371,7 @@
         "translation": [
           -275.3999938964844,
           -175.60000610351562,
-          -2.35
+          0
         ]
       },
       "ports": [
@@ -7027,9 +7379,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -7041,9 +7393,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -7055,9 +7407,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -7069,9 +7421,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -7083,9 +7435,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -7097,9 +7449,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -7115,7 +7467,7 @@
           "position": [
             -74.99999999999999,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -7129,7 +7481,7 @@
           "position": [
             -74.99999999999999,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -7143,7 +7495,7 @@
           "position": [
             -74.99999999999999,
             63.4,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -7157,7 +7509,7 @@
           "position": [
             74.99999999999999,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -7171,7 +7523,7 @@
           "position": [
             74.99999999999999,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -7185,7 +7537,7 @@
           "position": [
             74.99999999999999,
             63.4,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -7237,7 +7589,7 @@
         "translation": [
           -87.69999694824276,
           -175.60000610351562,
-          -2.35
+          0
         ]
       },
       "ports": [
@@ -7245,9 +7597,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -7259,9 +7611,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -7273,9 +7625,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -7287,9 +7639,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -7301,9 +7653,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -7315,9 +7667,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -7333,7 +7685,7 @@
           "position": [
             -87.69999999999999,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -7347,7 +7699,7 @@
           "position": [
             -87.69999999999999,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -7361,7 +7713,7 @@
           "position": [
             -87.69999999999999,
             63.4,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -7375,7 +7727,7 @@
           "position": [
             87.69999999999999,
             12.6,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -7389,7 +7741,7 @@
           "position": [
             87.69999999999999,
             38.0,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -7403,7 +7755,7 @@
           "position": [
             87.69999999999999,
             63.4,
-            0.0
+            2.35
           ],
           "rotation": [
             0,
@@ -7454,7 +7806,7 @@
         "translation": [
           -27.399999618530273,
           -177.8000030517578,
-          6.161514007341218e-12
+          2.550000000006161
         ]
       },
       "ports": [
@@ -7462,9 +7814,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -7476,9 +7828,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -7494,10 +7846,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -7545,7 +7897,7 @@
         "translation": [
           36.099998474121094,
           -177.8000030517578,
-          6.1616046466428376e-12
+          2.5500000000061616
         ]
       },
       "ports": [
@@ -7553,9 +7905,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -7567,9 +7919,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -7585,10 +7937,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -7636,7 +7988,7 @@
         "translation": [
           125.0,
           -177.8000030517578,
-          6.1616072487280515e-12
+          2.5500000000061616
         ]
       },
       "ports": [
@@ -7644,9 +7996,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -7658,9 +8010,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -7676,10 +8028,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -7727,7 +8079,7 @@
         "translation": [
           239.29999542236328,
           -177.8000030517578,
-          1.833637235104657e-11
+          2.5500000000183363
         ]
       },
       "ports": [
@@ -7735,9 +8087,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -7749,9 +8101,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -7767,10 +8119,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -7818,7 +8170,7 @@
         "translation": [
           379.0,
           -177.8000030517578,
-          3.050995914244403e-11
+          2.5500000000305096
         ]
       },
       "ports": [
@@ -7826,9 +8178,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -7840,9 +8192,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -7858,10 +8210,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -7909,7 +8261,7 @@
         "translation": [
           544.1000061035156,
           -177.8000030517578,
-          6.161152317496477e-12
+          2.550000000006161
         ]
       },
       "ports": [
@@ -7917,9 +8269,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -7931,9 +8283,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -7949,10 +8301,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -8000,7 +8352,7 @@
         "translation": [
           734.6000061035156,
           -177.8000030517578,
-          6.5462019485651446e-12
+          2.550000000006546
         ]
       },
       "ports": [
@@ -8008,9 +8360,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8022,9 +8374,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8040,10 +8392,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -8091,7 +8443,7 @@
         "translation": [
           -27.399999618530273,
           -101.5999984741211,
-          6.1583975766166255e-12
+          2.550000000006158
         ]
       },
       "ports": [
@@ -8099,9 +8451,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8113,9 +8465,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8127,9 +8479,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8141,9 +8493,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8159,10 +8511,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -8210,7 +8562,7 @@
         "translation": [
           36.099998474121094,
           -101.5999984741211,
-          6.158488215918245e-12
+          2.5500000000061585
         ]
       },
       "ports": [
@@ -8218,9 +8570,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8232,9 +8584,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8246,9 +8598,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8260,9 +8612,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8278,10 +8630,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -8329,7 +8681,7 @@
         "translation": [
           125.0,
           -101.5999984741211,
-          6.158719801502288e-12
+          2.5500000000061585
         ]
       },
       "ports": [
@@ -8337,9 +8689,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8351,9 +8703,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8365,9 +8717,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8379,9 +8731,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8397,10 +8749,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -8448,7 +8800,7 @@
         "translation": [
           239.29999542236328,
           -101.5999984741211,
-          1.833348403645907e-11
+          2.550000000018333
         ]
       },
       "ports": [
@@ -8456,9 +8808,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8470,9 +8822,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8484,9 +8836,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8498,9 +8850,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8516,10 +8868,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -8567,7 +8919,7 @@
         "translation": [
           379.0,
           -101.5999984741211,
-          3.0507069093133055e-11
+          2.550000000030507
         ]
       },
       "ports": [
@@ -8575,9 +8927,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8589,9 +8941,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8603,9 +8955,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8617,9 +8969,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8635,10 +8987,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -8686,7 +9038,7 @@
         "translation": [
           544.1000061035156,
           -101.5999984741211,
-          6.158264870270713e-12
+          2.550000000006158
         ]
       },
       "ports": [
@@ -8694,9 +9046,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8708,9 +9060,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8722,9 +9074,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8736,9 +9088,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8754,10 +9106,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -8805,7 +9157,7 @@
         "translation": [
           734.6000061035156,
           -101.5999984741211,
-          6.545708853417098e-12
+          2.5500000000065457
         ]
       },
       "ports": [
@@ -8813,9 +9165,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8827,9 +9179,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8841,9 +9193,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8855,9 +9207,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8873,10 +9225,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -8924,7 +9276,7 @@
         "translation": [
           -27.399999618530273,
           2.3101165145850318e-14,
-          -1.2933950785387616e-11
+          2.5499999999870657
         ]
       },
       "ports": [
@@ -8932,9 +9284,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8946,9 +9298,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8960,9 +9312,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -8974,9 +9326,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -8988,9 +9340,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9002,9 +9354,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9020,10 +9372,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -9071,7 +9423,7 @@
         "translation": [
           36.099998474121094,
           2.3101165145850318e-14,
-          -9.687424473714401e-12
+          2.5499999999903125
         ]
       },
       "ports": [
@@ -9079,9 +9431,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9093,9 +9445,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9107,9 +9459,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9121,9 +9473,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9135,9 +9487,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9149,9 +9501,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9167,10 +9519,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -9218,7 +9570,7 @@
         "translation": [
           125.0,
           2.3101165145850318e-14,
-          -6.441175284116474e-12
+          2.5499999999935588
         ]
       },
       "ports": [
@@ -9226,9 +9578,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9240,9 +9592,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9254,9 +9606,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9268,9 +9620,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9282,9 +9634,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9296,9 +9648,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9314,10 +9666,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -9365,7 +9717,7 @@
         "translation": [
           239.29999542236328,
           2.3101165145850318e-14,
-          8.980024189531033e-12
+          2.5500000000089798
         ]
       },
       "ports": [
@@ -9373,9 +9725,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9387,9 +9739,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9401,9 +9753,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9415,9 +9767,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9429,9 +9781,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9443,9 +9795,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9461,10 +9813,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -9512,7 +9864,7 @@
         "translation": [
           379.0,
           2.3101165145850318e-14,
-          2.440004621961922e-11
+          2.5500000000244
         ]
       },
       "ports": [
@@ -9520,9 +9872,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9534,9 +9886,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9548,9 +9900,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9562,9 +9914,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9576,9 +9928,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9590,9 +9942,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9608,10 +9960,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -9659,7 +10011,7 @@
         "translation": [
           544.1000061035156,
           2.3101165145850318e-14,
-          3.2976765849263012e-12
+          2.5500000000032976
         ]
       },
       "ports": [
@@ -9667,9 +10019,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9681,9 +10033,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9695,9 +10047,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9709,9 +10061,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9723,9 +10075,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9737,9 +10089,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9755,10 +10107,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -9806,7 +10158,7 @@
         "translation": [
           734.6000061035156,
           2.3101165145850318e-14,
-          6.5445691400933814e-12
+          2.5500000000065444
         ]
       },
       "ports": [
@@ -9814,9 +10166,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9828,9 +10180,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9842,9 +10194,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9856,9 +10208,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9870,9 +10222,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9884,9 +10236,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -9902,10 +10254,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -9953,7 +10305,7 @@
         "translation": [
           -27.400000000000546,
           -101.59999999999997,
-          6.158397700255174e-12
+          2.550000000006158
         ]
       },
       "ports": [
@@ -9961,9 +10313,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9975,9 +10327,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -9989,9 +10341,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10003,9 +10355,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10021,10 +10373,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -10072,7 +10424,7 @@
         "translation": [
           36.09999999999946,
           -101.59999999999997,
-          6.158488288803286e-12
+          2.5500000000061585
         ]
       },
       "ports": [
@@ -10080,9 +10432,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10094,9 +10446,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10108,9 +10460,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10122,9 +10474,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10140,10 +10492,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -10191,7 +10543,7 @@
         "translation": [
           124.99999999999946,
           -101.59999999999997,
-          6.1587198190391125e-12
+          2.5500000000061585
         ]
       },
       "ports": [
@@ -10199,9 +10551,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10213,9 +10565,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10227,9 +10579,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10241,9 +10593,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10259,10 +10611,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -10310,7 +10662,7 @@
         "translation": [
           239.29999999999893,
           -101.59999999999997,
-          1.8333484040021943e-11
+          2.550000000018333
         ]
       },
       "ports": [
@@ -10318,9 +10670,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10332,9 +10684,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10346,9 +10698,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10360,9 +10712,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10378,10 +10730,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -10429,7 +10781,7 @@
         "translation": [
           379.0,
           -101.5999984741211,
-          3.050706909313305e-11
+          2.550000000030507
         ]
       },
       "ports": [
@@ -10437,9 +10789,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10451,9 +10803,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10465,9 +10817,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10479,9 +10831,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10497,10 +10849,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -10548,7 +10900,7 @@
         "translation": [
           544.1000061035156,
           -101.5999984741211,
-          6.158264870270713e-12
+          2.550000000006158
         ]
       },
       "ports": [
@@ -10556,9 +10908,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10570,9 +10922,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10584,9 +10936,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10598,9 +10950,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10616,10 +10968,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -10667,7 +11019,7 @@
         "translation": [
           734.6000061035156,
           -101.5999984741211,
-          6.920311979713434e-12
+          2.55000000000692
         ]
       },
       "ports": [
@@ -10675,9 +11027,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10689,9 +11041,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10703,9 +11055,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10717,9 +11069,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10735,10 +11087,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -10786,7 +11138,7 @@
         "translation": [
           -27.399999618530273,
           2.310116514585032e-14,
-          -1.293395078538762e-11
+          2.5499999999870657
         ]
       },
       "ports": [
@@ -10794,9 +11146,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10808,9 +11160,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10822,9 +11174,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -13.45,
+            -12.7,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10836,9 +11188,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10850,9 +11202,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10864,9 +11216,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            13.45,
+            12.7,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10882,10 +11234,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -10933,7 +11285,7 @@
         "translation": [
           36.10000000000131,
           2.3101165425032376e-14,
-          -9.687424825276588e-12
+          2.5499999999903125
         ]
       },
       "ports": [
@@ -10941,9 +11293,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10955,9 +11307,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10969,9 +11321,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -26.15,
+            -25.4,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -10983,9 +11335,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -10997,9 +11349,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11011,9 +11363,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            26.15,
+            25.4,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11029,10 +11381,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -11080,7 +11432,7 @@
         "translation": [
           125.00000000000131,
           2.3101165425032376e-14,
-          -6.4411754600876275e-12
+          2.5499999999935588
         ]
       },
       "ports": [
@@ -11088,9 +11440,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11102,9 +11454,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11116,9 +11468,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -38.849999999999994,
+            -38.099999999999994,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11130,9 +11482,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11144,9 +11496,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11158,9 +11510,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            38.849999999999994,
+            38.099999999999994,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11176,10 +11528,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -11227,7 +11579,7 @@
         "translation": [
           239.30000000000078,
           2.3101165425032376e-14,
-          8.980024414531782e-12
+          2.5500000000089798
         ]
       },
       "ports": [
@@ -11235,9 +11587,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11249,9 +11601,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11263,9 +11615,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -51.55,
+            -50.8,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11277,9 +11629,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11291,9 +11643,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11305,9 +11657,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            51.55,
+            50.8,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11323,10 +11675,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -11374,7 +11726,7 @@
         "translation": [
           379.0000000000008,
           2.3101165425032376e-14,
-          2.4400046272345163e-11
+          2.5500000000244
         ]
       },
       "ports": [
@@ -11382,9 +11734,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11396,9 +11748,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11410,9 +11762,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -64.25,
+            -63.5,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11424,9 +11776,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11438,9 +11790,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11452,9 +11804,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            64.25,
+            63.5,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11470,10 +11822,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -11521,7 +11873,7 @@
         "translation": [
           544.1000000000007,
           2.3101165425032376e-14,
-          3.2976764958805163e-12
+          2.5500000000032976
         ]
       },
       "ports": [
@@ -11529,9 +11881,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11543,9 +11895,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11557,9 +11909,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -76.94999999999999,
+            -76.19999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11571,9 +11923,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11585,9 +11937,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11599,9 +11951,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            76.94999999999999,
+            76.19999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11617,10 +11969,10 @@
           "position": [
             12.7,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]
@@ -11668,7 +12020,7 @@
         "translation": [
           734.6,
           2.3101165425032376e-14,
-          6.5445691420224765e-12
+          2.5500000000065444
         ]
       },
       "ports": [
@@ -11676,9 +12028,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11690,9 +12042,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11704,9 +12056,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "left",
           "position": [
-            -89.64999999999999,
+            -88.89999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             -1,
@@ -11718,9 +12070,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             12.6,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11732,9 +12084,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             38.0,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11746,9 +12098,9 @@
           "interface": "ddd-grid-pin-v1",
           "side": "right",
           "position": [
-            89.64999999999999,
+            88.89999999999999,
             63.4,
-            2.0
+            4.45
           ],
           "normal": [
             1,
@@ -11764,10 +12116,10 @@
           "position": [
             0,
             12.6,
-            0.0
+            8.7
           ],
           "rotation": [
-            0,
+            180,
             0,
             0
           ]

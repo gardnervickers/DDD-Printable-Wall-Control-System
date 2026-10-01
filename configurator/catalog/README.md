@@ -14,7 +14,7 @@ A port declares:
 {
   "interface": "ddd-grid-pin-v1",
   "side": "left",
-  "position": [-38.85, 12.6, 2.0],
+  "position": [-38.1, 12.6, 4.45],
   "normal": [-1, 0, 0]
 }
 ```
@@ -25,8 +25,10 @@ For current DDD upright parts:
 
 - Blank body width is `width × 25.4 − 2.4`; integral pins project 3.9mm from each edge. Their centers are at `±(width × 25.4 / 2 + 0.75)`.
 - Pin row centers are `12.6 + row × 25.4` above the plate bottom. Pins have a 9.8mm height and 3.8mm thickness before chamfers.
-- Flat sockets are 4mm wide, 10mm high, and 4mm deep. Their X centers are 4.35mm inward from the outermost front rail edge. Their native socket plane is Z=0..4, not the native blank plate printing offset.
-- Blank STLs are translated by −2.55mm in Z; clip-on sockets use −2.35mm. Locking plates are normalized from their own minimum Z.
+- Sidepieces are printed on their side. Rotate left pieces −90° and right pieces +90° around Y: native X becomes installed depth and native Z becomes installed thickness. The panel face is 10mm inward from the rear tip of the catch; installed catches span Z=−10..0 and bracket bodies extend to Z=8.7.
+- Native flat sockets span 4mm in Z (the insertion axis), 10mm in Y, and 4mm in X. After rotation they open toward the centerpiece along installed X, with depth Z=2.35..6.35.
+- Port X positions use the nominal panel-column datum, `±width × 25.4 / 2` on centerpieces and `±1.1` on normalized sidepieces. These are mating datums, not the integral pin centers. This seats the 2.2mm catch blades on panel columns 25.4mm apart.
+- Blank and clip-on STLs keep their native Z placement. Locking plates are translated so their back is at Z=2.55. Integral pins span Z=2.55..6.35; separate pins start at Z=2.35.
 - Flat sidepieces use `maxY − height × 25.4 − 6.4` as the nominal body-bottom datum. This removes printing-layout offsets without scaling meshes.
 
 A sidepiece declares `side` and a `pair` key shared with its matching opposite side. This lets the app generate pairs without a naming convention and prevents mixing different bracket variants. `height`, `width`, `family`, `label`, and `description` are UI metadata; they do not establish mechanical compatibility. Current UI family records should share a label and have unique height/width variants.
@@ -42,3 +44,5 @@ Dependencies refer to accessory IDs and include `quantity`, `position`, and `rot
 5. Add a mesh check or independent dimensional evidence appropriate to the new interface. Verify the downloaded kit quantities.
 
 A new part using an established interface needs a catalog record and asset. New interface definitions must specify their geometry and mating tolerances; matching an identifier alone is not physical validation. Parts with unknown metadata are never offered as compatible.
+
+`panelAttachments` declares each catch blade center at the panel face, in normalized installed coordinates. The panel preview uses these anchors to phase a 25.4mm column × 50.8mm row grid and cuts real openings through a contextual 1.2mm sheet. This is an illustrative panel, not a manufacturing drawing or tolerance certification.

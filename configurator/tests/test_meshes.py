@@ -1,5 +1,6 @@
 """Independent checks against upstream triangles, not just declared dimensions."""
 import hashlib
+import math
 import json
 import sys
 import unittest
@@ -29,6 +30,14 @@ def inside(triangles, point):
         t = inv * dot(e2, q)
         if t > 1e-6: hits.append(t)
     return len(set(round(t, 5) for t in hits)) % 2 == 1
+def normalized_vertices(part):
+    # The upstream families in this catalog use only a Y rotation.
+    angle = math.radians(part['transform']['rotation'][1])
+    cosine, sine = math.cos(angle), math.sin(angle)
+    tr = part['transform']['translation']
+    return [(cosine*x+sine*z+tr[0], y+tr[1], -sine*x+cosine*z+tr[2])
+            for x,y,z in vertices(ROOT / part['asset']['file'])]
+
 class MeshChecks(unittest.TestCase):
     def test_upstream_assets_have_not_changed(self):
         for part in CATALOG['parts']:
@@ -38,30 +47,42 @@ class MeshChecks(unittest.TestCase):
     def test_flat_socket_datums_are_in_real_voids_with_solid_walls(self):
         for part in CATALOG['parts']:
             if part['kind'] != 'sidepiece': continue
-            tr = part['transform']['translation']
-            vs = [tuple(v[a] + tr[a] for a in range(3)) for v in vertices(ROOT / part['asset']['file'])]
+            vs = normalized_vertices(part)
             for port in part['ports']:
                 x, y, z = port['position']
                 self.assertFalse(inside(vs, (x, y, z)), (part['id'], 'socket center'))
                 self.assertFalse(inside(vs, (x, y + 4.5, z)), (part['id'], 'socket height'))
                 self.assertTrue(inside(vs, (x, y + 6, z)), (part['id'], 'socket end wall'))
                 self.assertTrue(inside(vs, (x, y, z + 3)), (part['id'], 'socket backing'))
+                normal = port['normal'][0]
+                self.assertFalse(inside(vs, (x + normal * 3.5, y, z)), (part['id'], 'socket must open along the pin axis'))
+    def test_catches_extend_behind_the_panel_and_blades_align_with_slots(self):
+        for part in CATALOG['parts']:
+            if part['kind'] != 'sidepiece': continue
+            vs = normalized_vertices(part)
+            self.assertAlmostEqual(min(v[2] for v in vs), -10, places=2)
+            self.assertAlmostEqual(max(v[2] for v in vs), 8.7, places=2)
+            self.assertEqual(len(part['panelAttachments']), (part['height'] + 1) // 2)
+            for hook in part['panelAttachments']:
+                x, y, _ = hook['position']
+                self.assertTrue(inside(vs, (x, y, -.6)), (part['id'], 'blade crosses panel plane'))
+                self.assertFalse(inside(vs, (x + 1.2, y, -.6)), (part['id'], 'blade width'))
+
     def test_integral_pin_centers_are_in_the_centerpiece_mesh(self):
         for part in CATALOG['parts']:
             if part['kind'] != 'centerpiece' or part['family'] == 'Belt clip holder': continue
-            tr = part['transform']['translation']
-            vs = [tuple(v[a] + tr[a] for a in range(3)) for v in vertices(ROOT / part['asset']['file'])]
+            vs = normalized_vertices(part)
             for port in part['ports']:
-                x, y, _ = port['position']
-                self.assertTrue(inside(vs, (x, y, 1.9)), (part['id'], port['side'], y))
+                _, y, _ = port['position']
+                x = (-1 if port['side'] == 'left' else 1) * (part['width'] * 25.4 / 2 + .75)
+                self.assertTrue(inside(vs, (x, y, 4.45)), (part['id'], port['side'], y))
     def test_clip_on_declared_pin_sockets_are_open(self):
         for part in CATALOG['parts']:
             if part.get('family') != 'Belt clip holder': continue
-            tr = part['transform']['translation']
-            vs = [tuple(v[a] + tr[a] for a in range(3)) for v in vertices(ROOT / part['asset']['file'])]
+            vs = normalized_vertices(part)
             for dep in part['dependencies']:
                 x, y, _ = dep['position']
                 inward = 2 if x < 0 else -2
-                self.assertFalse(inside(vs, (x + inward, y, 2)), (part['id'], 'pin socket'))
-                self.assertTrue(inside(vs, (x + inward, y + 6, 2)), (part['id'], 'pin socket end wall'))
+                self.assertFalse(inside(vs, (x + inward, y, 4.35)), (part['id'], 'pin socket'))
+                self.assertTrue(inside(vs, (x + inward, y + 6, 4.35)), (part['id'], 'pin socket end wall'))
 if __name__ == '__main__': unittest.main()

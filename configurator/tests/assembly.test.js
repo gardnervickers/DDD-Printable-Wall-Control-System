@@ -84,3 +84,20 @@ test('invalid metadata fails closed', () => {
     assert.throws(() => validateCatalog(invalid));
   }
 });
+
+// Actual panel engagement is checked separately from centerpiece port matching.
+import {panelLayout} from '../panel.js';
+test('all seated catches line up with real slot openings on the two-inch row grid', () => {
+  for (const center of catalog.parts.filter(p => p.kind === 'centerpiece')) {
+    for (const assembly of compatibleAssemblies(catalog, center.id, center.panel[0])) {
+      const layout = panelLayout(assembly);
+      for (const hook of layout.hooks) {
+        assert.equal(hook.position[2], 0);
+        const matching = layout.slots.find(slot => Math.abs(slot.x-hook.position[0]) < .001 && Math.abs(slot.y-hook.position[1]) < .001);
+        assert.ok(matching, `${assembly.id}: catch without panel slot`);
+        assert.ok(matching.width >= hook.bladeWidth);
+      }
+      assert.equal(layout.thickness,1.2);
+    }
+  }
+});

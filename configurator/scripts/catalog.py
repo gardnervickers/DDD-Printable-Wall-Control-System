@@ -17,7 +17,7 @@ def asset(path):
     return {'file': path.relative_to(ROOT).as_posix(), 'sha256': hashlib.sha256(path.read_bytes()).hexdigest(), 'bounds': bounds}
 
 def port(side, row, x=0):
-    return {'interface': 'ddd-grid-pin-v1', 'side': side, 'position': [x, 12.6 + 25.4 * row, 2.0], 'normal': [-1 if side == 'left' else 1, 0, 0]}
+    return {'interface': 'ddd-grid-pin-v1', 'side': side, 'position': [x, 12.6 + 25.4 * row, 4.45], 'normal': [-1 if side == 'left' else 1, 0, 0]}
 
 def generate():
     parts = []
@@ -28,13 +28,17 @@ def generate():
         h, side = int(m[1]), m[2].lower()
         a = asset(path)
         b = a['bounds']
-        rail = b[0][1] - 4.35 if side == 'left' else b[0][0] + 4.35
+        # Rotate the print-bed profile upright: native X is installed depth,
+        # native Z is bracket thickness. The rear catch projects 10mm behind the panel.
+        wall_x = b[0][0] + 10 if side == 'left' else b[0][1] - 10
+        rotation = [0, -90 if side == 'left' else 90, 0]
         # Main body datum: top of panel catch is 6.4mm above the nominal grid.
         datum_y = b[1][1] - h * 25.4 - 6.4
         parts.append({'id': f'flat-{h}-{side}', 'kind': 'sidepiece', 'label': f'{h}×0 Flat {side.title()}',
                       'family': 'Flat brackets', 'pair': f'flat-{h}', 'height': h, 'side': side, 'panel': ['vertical', 'horizontal'],
-                      'mounts': ['upright'], 'asset': a, 'transform': {'rotation': [0, 0, 0], 'translation': [-rail, -datum_y, 0]},
-                      'ports': [{**port(side, r), 'normal': [1 if side == 'left' else -1, 0, 0]} for r in range(h)], 'dependencies': []})
+                      'mounts': ['upright'], 'asset': a, 'transform': {'rotation': rotation, 'translation': [0, -datum_y, -wall_x if side == 'left' else wall_x]},
+                      'panelAttachments': [{'position': [-1.1 if side == 'left' else 1.1, h * 25.4 - 12.8 - r * 50.8, 0], 'bladeWidth': 2.2} for r in range((h + 1) // 2)],
+                      'ports': [{**port(side, r, -1.1 if side == 'left' else 1.1), 'normal': [1 if side == 'left' else -1, 0, 0]} for r in range(h)], 'dependencies': []})
     families = [('Spacer_blank', 'Blank plate', 'A simple upright plate with integral connection pins.', None),
                 ('Spacer_clip-on', 'Belt clip holder', 'An offset edge for tape measures and other belt clips.', None),
                 ('Locking_spacer', 'Locking plate', 'A threaded plate that locks the assembly to a vertical panel.', 'vertical'),
@@ -49,18 +53,18 @@ def generate():
                 continue
             a = asset(path)
             b = a['bounds']
-            zshift = -2.55 if directory == 'Spacer_blank' else -2.35 if directory == 'Spacer_clip-on' else -b[2][0]
+            zshift = 2.55 - b[2][0] if panel else 0
             dependencies = []
             if directory == 'Spacer_clip-on':
                 for side in ('left', 'right'):
                     for row in range(h):
-                        dependencies.append({'part': 'connector-pin', 'quantity': 1, 'position': [(-1 if side == 'left' else 1) * (w * 25.4 - 2.4) / 2, 12.6 + row * 25.4, 0.0], 'rotation': [0, 0, 90]})
+                        dependencies.append({'part': 'connector-pin', 'quantity': 1, 'position': [(-1 if side == 'left' else 1) * (w * 25.4 - 2.4) / 2, 12.6 + row * 25.4, 2.35], 'rotation': [0, 0, 90]})
             if panel:
-                dependencies.append({'part': 'lock-pin', 'quantity': 1, 'position': [0 if w % 2 else 12.7, 12.6, 0.0], 'rotation': [0, 0, 0]})
+                dependencies.append({'part': 'lock-pin', 'quantity': 1, 'position': [0 if w % 2 else 12.7, 12.6, 8.7], 'rotation': [180, 0, 0]})
             parts.append({'id': f'{directory.lower()}-{h}-{w}', 'kind': 'centerpiece', 'label': label, 'description': description,
                           'family': label, 'height': h, 'width': w, 'panel': [panel] if panel else ['vertical', 'horizontal'],
                           'mounts': ['upright'], 'asset': a, 'transform': {'rotation': [0, 0, 0], 'translation': [-(b[0][0] + b[0][1]) / 2, -b[1][0], zshift]},
-                          'ports': [port(side, r, (-1 if side == 'left' else 1) * (w * 25.4 / 2 + 0.75)) for side in ('left', 'right') for r in range(h)], 'dependencies': dependencies})
+                          'ports': [port(side, r, (-1 if side == 'left' else 1) * w * 25.4 / 2) for side in ('left', 'right') for r in range(h)], 'dependencies': dependencies})
     for id, filename, label in [('connector-pin', 'Accessories/4x10x8mm Pin.stl', 'Connection pin'), ('lock-pin', 'Centerpieces/Locking_spacer/8mm Lock Pin.stl', '8 mm locking screw')]:
         a = asset(ROOT / filename)
         b = a['bounds']
