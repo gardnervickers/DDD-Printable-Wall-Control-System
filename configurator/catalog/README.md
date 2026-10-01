@@ -46,3 +46,7 @@ Dependencies refer to accessory IDs and include `quantity`, `position`, and `rot
 A new part using an established interface needs a catalog record and asset. New interface definitions must specify their geometry and mating tolerances; matching an identifier alone is not physical validation. Parts with unknown metadata are never offered as compatible.
 
 `panelAttachments` declares each catch blade center at the panel face, in normalized installed coordinates. The panel preview uses these anchors to phase a 25.4mm column × 50.8mm row grid and cuts real openings through a contextual 1.2mm sheet. This is an illustrative panel, not a manufacturing drawing or tolerance certification.
+
+## Horizontal shelves
+
+Shelf records reuse unchanged `Spacer_blank` STLs. They rotate −90° about X, place the back edge at Z=6.35, and place the top surface at Y=76.0. The plate's height units become shelf depth. Shelf pins fit horizontal sockets along the top of reviewed 3-high flat angle brackets, at Y=69.65..73.65 and depth row centers 19.05 + row×25.4. Mating datums use Y=71.75 and depth 18.95 + row×25.4, respecting the upstream clearance. Socket insertion is along X. Support placement must keep its panel face at Z=0; matching ports cannot translate a catch away from the panel. The shallowest compatible paired support is recommended.

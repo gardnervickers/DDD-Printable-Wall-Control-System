@@ -16,9 +16,9 @@ Open http://127.0.0.1:8765. `dist` is a self-contained static site suitable for 
 
 ## Current coverage
 
-75 centerpiece variants: blank plates, belt-clip plates, vertical-panel locking plates, and horizontal-panel locking plates. Sizes are 1–4 height units and 1–7 width units where upstream variants exist. Matching flat brackets cover 1–8 height units. Separate connector pins and one locking screw per locking assembly are included automatically.
+96 centerpiece variants, including 21 shelf sizes: blank plates, belt-clip plates, vertical-panel locking plates, and horizontal-panel locking plates. Sizes are 1–4 height units and 1–7 width units where upstream variants exist. Matching flat brackets cover 1–8 height units. Shelves use 3-inch-high angle supports with 2/3/4-inch depths; the shallowest compatible pair is recommended. Separate connector pins and one locking screw per locking assembly are included automatically.
 
-This first catalog covers upright assemblies. Shelf, angle, square, U, multi-centerpiece, and shared-center-bracket arrangements are not yet catalogued. They are excluded from results. The illustrated panel is contextual and is not a measured panel model.
+The catalog covers upright assemblies and horizontal shelves. Other angle variants, square, U, multi-centerpiece, and shared-center-bracket arrangements are not yet catalogued. They are excluded from results. The illustrated panel is contextual and is not a measured panel model.
 
 ## Add a part
 

@@ -31,12 +31,14 @@ def inside(triangles, point):
         if t > 1e-6: hits.append(t)
     return len(set(round(t, 5) for t in hits)) % 2 == 1
 def normalized_vertices(part):
-    # The upstream families in this catalog use only a Y rotation.
+    # Normalize the print orientation, including horizontal shelf plates.
     angle = math.radians(part['transform']['rotation'][1])
     cosine, sine = math.cos(angle), math.sin(angle)
     tr = part['transform']['translation']
-    return [(cosine*x+sine*z+tr[0], y+tr[1], -sine*x+cosine*z+tr[2])
-            for x,y,z in vertices(ROOT / part['asset']['file'])]
+    ax = math.radians(part['transform']['rotation'][0])
+    cx, sx = math.cos(ax), math.sin(ax)
+    points = [(x, cx*y-sx*z, sx*y+cx*z) for x,y,z in vertices(ROOT / part['asset']['file'])]
+    return [(cosine*x+sine*z+tr[0], y+tr[1], -sine*x+cosine*z+tr[2]) for x,y,z in points]
 
 class MeshChecks(unittest.TestCase):
     def test_upstream_assets_have_not_changed(self):
@@ -51,9 +53,14 @@ class MeshChecks(unittest.TestCase):
             for port in part['ports']:
                 x, y, z = port['position']
                 self.assertFalse(inside(vs, (x, y, z)), (part['id'], 'socket center'))
-                self.assertFalse(inside(vs, (x, y + 4.5, z)), (part['id'], 'socket height'))
-                self.assertTrue(inside(vs, (x, y + 6, z)), (part['id'], 'socket end wall'))
-                self.assertTrue(inside(vs, (x, y, z + 3)), (part['id'], 'socket backing'))
+                if part['family'] == 'Flat brackets':
+                    self.assertFalse(inside(vs, (x, y + 4.5, z)), (part['id'], 'socket height'))
+                    self.assertTrue(inside(vs, (x, y + 6, z)), (part['id'], 'socket end wall'))
+                    self.assertTrue(inside(vs, (x, y, z + 3)), (part['id'], 'socket backing'))
+                else:
+                    self.assertFalse(inside(vs, (x, y, z + 4.5)), (part['id'], 'horizontal socket length'))
+                    self.assertTrue(inside(vs, (x, y, z + 6)), (part['id'], 'horizontal socket end wall'))
+                    self.assertTrue(inside(vs, (x, y + 3, z)), (part['id'], 'horizontal socket backing'))
                 normal = port['normal'][0]
                 self.assertFalse(inside(vs, (x + normal * 3.5, y, z)), (part['id'], 'socket must open along the pin axis'))
     def test_catches_extend_behind_the_panel_and_blades_align_with_slots(self):
@@ -61,7 +68,7 @@ class MeshChecks(unittest.TestCase):
             if part['kind'] != 'sidepiece': continue
             vs = normalized_vertices(part)
             self.assertAlmostEqual(min(v[2] for v in vs), -10, places=2)
-            self.assertAlmostEqual(max(v[2] for v in vs), 8.7, places=2)
+            self.assertAlmostEqual(max(v[2] for v in vs), 8.7 if part['family'] == 'Flat brackets' else part['depth'] * 25.4 + 6.35, places=2)
             self.assertEqual(len(part['panelAttachments']), (part['height'] + 1) // 2)
             for hook in part['panelAttachments']:
                 x, y, _ = hook['position']
@@ -75,7 +82,16 @@ class MeshChecks(unittest.TestCase):
             for port in part['ports']:
                 _, y, _ = port['position']
                 x = (-1 if port['side'] == 'left' else 1) * (part['width'] * 25.4 / 2 + .75)
-                self.assertTrue(inside(vs, (x, y, 4.45)), (part['id'], port['side'], y))
+                point = (x, y, 4.45) if part['mounts'][0] == 'upright' else (x, y, port['position'][2])
+                self.assertTrue(inside(vs, point), (part['id'], port['side'], y))
+    def test_shelf_surface_is_horizontal_and_flush_with_support_tops(self):
+        for part in CATALOG['parts']:
+            if part.get('family') != 'Shelf': continue
+            vs = normalized_vertices(part)
+            self.assertAlmostEqual(max(v[1] for v in vs), 76.0, places=2)
+            self.assertAlmostEqual(min(v[2] for v in vs), 6.35, places=2)
+            self.assertAlmostEqual(max(v[2] for v in vs), 6.35 + part['height'] * 25.4 - .2, places=2)
+
     def test_clip_on_declared_pin_sockets_are_open(self):
         for part in CATALOG['parts']:
             if part.get('family') != 'Belt clip holder': continue

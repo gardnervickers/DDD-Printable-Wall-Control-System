@@ -2154,6 +2154,3480 @@
       "dependencies": []
     },
     {
+      "id": "angle-3-2-left",
+      "kind": "sidepiece",
+      "label": "3\u00d72 Angle Support Left",
+      "family": "Angle supports",
+      "pair": "angle-3-2",
+      "height": 3,
+      "depth": 2,
+      "side": "left",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Sidepieces/Angle_brackets/3x2 Angle Bracket Flat Left.stl",
+        "sha256": "cc8ae796df5687ea953ee7116380875e1a9d83ac41265175bafc4673b7152ae6",
+        "bounds": [
+          [
+            1268.199951171875,
+            1335.349975585938
+          ],
+          [
+            222.3000030517578,
+            308.0
+          ],
+          [
+            -8.114998950592422e-11,
+            13.69999980926514
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          0,
+          -90,
+          0
+        ],
+        "translation": [
+          0,
+          -225.4,
+          -1278.199951171875
+        ]
+      },
+      "panelAttachments": [
+        {
+          "position": [
+            -1.1,
+            63.4,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            12.600000000000001,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -1.1,
+            71.75,
+            18.95
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -1.1,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "angle-3-2-right",
+      "kind": "sidepiece",
+      "label": "3\u00d72 Angle Support Right",
+      "family": "Angle supports",
+      "pair": "angle-3-2",
+      "height": 3,
+      "depth": 2,
+      "side": "right",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Sidepieces/Angle_brackets/3x2 Angle Bracket Flat Right.stl",
+        "sha256": "0433b4cb1f07d2e1aa12aa0e2ea01e0596037c7821a756e4359b8ca06052009b",
+        "bounds": [
+          [
+            1571.050048828125,
+            1638.199951171875
+          ],
+          [
+            222.3000030517578,
+            308.0
+          ],
+          [
+            -7.83489731426279e-11,
+            13.69999980926514
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "translation": [
+          0,
+          -225.4,
+          1628.199951171875
+        ]
+      },
+      "panelAttachments": [
+        {
+          "position": [
+            1.1,
+            63.4,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            12.600000000000001,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            1.1,
+            71.75,
+            18.95
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            1.1,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "angle-3-3-left",
+      "kind": "sidepiece",
+      "label": "3\u00d73 Angle Support Left",
+      "family": "Angle supports",
+      "pair": "angle-3-3",
+      "height": 3,
+      "depth": 3,
+      "side": "left",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Sidepieces/Angle_brackets/3x3 Angle Bracket Flat Left.stl",
+        "sha256": "8b0b05844bc59d53173ec914989f5f229388a3139ff36d4368815d9905b1760b",
+        "bounds": [
+          [
+            1368.199951171875,
+            1460.75
+          ],
+          [
+            322.29998779296875,
+            408.0
+          ],
+          [
+            -8.115006583375717e-11,
+            13.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          0,
+          -90,
+          0
+        ],
+        "translation": [
+          0,
+          -325.40000000000003,
+          -1378.199951171875
+        ]
+      },
+      "panelAttachments": [
+        {
+          "position": [
+            -1.1,
+            63.4,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            12.600000000000001,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -1.1,
+            71.75,
+            18.95
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -1.1,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -1.1,
+            71.75,
+            69.75
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "angle-3-3-right",
+      "kind": "sidepiece",
+      "label": "3\u00d73 Angle Support Right",
+      "family": "Angle supports",
+      "pair": "angle-3-3",
+      "height": 3,
+      "depth": 3,
+      "side": "right",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Sidepieces/Angle_brackets/3x3 Angle Bracket Flat Right.stl",
+        "sha256": "d04be4c716c6a076e0486f73856ab33fd323f60d86771350ebdbbe471ca66d80",
+        "bounds": [
+          [
+            1643.199951171875,
+            1735.75
+          ],
+          [
+            322.29998779296875,
+            408.0
+          ],
+          [
+            -8.115006583375717e-11,
+            13.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "translation": [
+          0,
+          -325.40000000000003,
+          1725.75
+        ]
+      },
+      "panelAttachments": [
+        {
+          "position": [
+            1.1,
+            63.4,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            12.600000000000001,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            1.1,
+            71.75,
+            18.95
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            1.1,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            1.1,
+            71.75,
+            69.75
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "angle-3-4-left",
+      "kind": "sidepiece",
+      "label": "3\u00d74 Angle Support Left",
+      "family": "Angle supports",
+      "pair": "angle-3-4",
+      "height": 3,
+      "depth": 4,
+      "side": "left",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Sidepieces/Angle_brackets/3x4 Angle Bracket Flat Left.stl",
+        "sha256": "bf2f2c0c75b59c36eb78463969793fb69e278fd887ba02de006c74c8ea468754",
+        "bounds": [
+          [
+            1.84741111297626e-13,
+            117.9499969482422
+          ],
+          [
+            222.3000030517578,
+            308.0
+          ],
+          [
+            6.408262365198425e-09,
+            13.69999980926514
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          0,
+          -90,
+          0
+        ],
+        "translation": [
+          0,
+          -225.4,
+          -10.000000000000185
+        ]
+      },
+      "panelAttachments": [
+        {
+          "position": [
+            -1.1,
+            63.4,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            -1.1,
+            12.600000000000001,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -1.1,
+            71.75,
+            18.95
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -1.1,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -1.1,
+            71.75,
+            69.75
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -1.1,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "angle-3-4-right",
+      "kind": "sidepiece",
+      "label": "3\u00d74 Angle Support Right",
+      "family": "Angle supports",
+      "pair": "angle-3-4",
+      "height": 3,
+      "depth": 4,
+      "side": "right",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Sidepieces/Angle_brackets/3x4 Angle Bracket Flat Right.stl",
+        "sha256": "c456abe73218d33d0d49a6278d00ace776a54893058727aab0a282094650842c",
+        "bounds": [
+          [
+            252.0500030517578,
+            370.0
+          ],
+          [
+            222.3000030517578,
+            308.0
+          ],
+          [
+            6.428148680015511e-09,
+            13.69999980926514
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "translation": [
+          0,
+          -225.4,
+          360.0
+        ]
+      },
+      "panelAttachments": [
+        {
+          "position": [
+            1.1,
+            63.4,
+            0
+          ],
+          "bladeWidth": 2.2
+        },
+        {
+          "position": [
+            1.1,
+            12.600000000000001,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            1.1,
+            71.75,
+            18.95
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            1.1,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            1.1,
+            71.75,
+            69.75
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            1.1,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-2-1",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 2,
+      "width": 1,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/2x1 Spacer blank.stl",
+        "sha256": "8de30f652d0e87ec3183226b75cdf8f78003b39afb0d4d0ad475a95902c3d6c8",
+        "bounds": [
+          [
+            826.7000122070312,
+            857.5
+          ],
+          [
+            626.1994018554688,
+            676.7999877929688
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -842.1000061035156,
+          67.3,
+          683.1494018554688
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -12.7,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -12.7,
+            71.75,
+            18.949999999999996
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            12.7,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            12.7,
+            71.75,
+            18.949999999999996
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-2-2",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 2,
+      "width": 2,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/2x2 Spacer blank.stl",
+        "sha256": "aabcfece7e7ebdfceecdc26a12eb32ad53c1b13c506cbe142e378023527979ae",
+        "bounds": [
+          [
+            750.5,
+            806.7000122070312
+          ],
+          [
+            626.1994018554688,
+            676.7999877929688
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -778.6000061035156,
+          67.3,
+          683.1494018554688
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -25.4,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -25.4,
+            71.75,
+            18.949999999999996
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            25.4,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            25.4,
+            71.75,
+            18.949999999999996
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-2-3",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 2,
+      "width": 3,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/2x3 Spacer blank.stl",
+        "sha256": "4b713bb3028a322331ee75c159f1c73529350e4f8321f271abad3b603cd5c4b0",
+        "bounds": [
+          [
+            648.9000244140625,
+            730.5
+          ],
+          [
+            626.1994018554688,
+            676.7999877929688
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -689.7000122070312,
+          67.3,
+          683.1494018554688
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -38.099999999999994,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -38.099999999999994,
+            71.75,
+            18.949999999999996
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            38.099999999999994,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            38.099999999999994,
+            71.75,
+            18.949999999999996
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-2-4",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 2,
+      "width": 4,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/2x4 Spacer blank.stl",
+        "sha256": "f28d46d925aec6fc91c26cbfe3560316bfb4224529e23daaff4881bd59905815",
+        "bounds": [
+          [
+            521.9000244140625,
+            628.9000244140625
+          ],
+          [
+            626.1994018554688,
+            676.7999877929688
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -575.4000244140625,
+          67.3,
+          683.1494018554688
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -50.8,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -50.8,
+            71.75,
+            18.949999999999996
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            50.8,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            50.8,
+            71.75,
+            18.949999999999996
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-2-5",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 2,
+      "width": 5,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/2x5 Spacer blank.stl",
+        "sha256": "629444fb5f5de4d5f3e7653f7326ede2caf3edf1c8bcfe8a023f310a336e4e30",
+        "bounds": [
+          [
+            371.8999938964844,
+            504.29998779296875
+          ],
+          [
+            626.1994018554688,
+            676.7999877929688
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -438.09999084472656,
+          67.3,
+          683.1494018554688
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -63.5,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -63.5,
+            71.75,
+            18.949999999999996
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            63.5,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            63.5,
+            71.75,
+            18.949999999999996
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-2-6",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 2,
+      "width": 6,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/2x6 Spacer blank.stl",
+        "sha256": "be1c67c63e21011058f93d45575ac7155b4237d5f28ef80a6a41dc8dad6ddd08",
+        "bounds": [
+          [
+            197.3000030517578,
+            355.1000061035156
+          ],
+          [
+            626.1994018554688,
+            676.7999877929688
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -276.2000045776367,
+          67.3,
+          683.1494018554688
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -76.19999999999999,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -76.19999999999999,
+            71.75,
+            18.949999999999996
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            76.19999999999999,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            76.19999999999999,
+            71.75,
+            18.949999999999996
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-2-7",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 2,
+      "width": 7,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/2x7 Spacer blank.stl",
+        "sha256": "4edfb277984c83dd0b23f247573ae77dd419148cab61523f55403c7d1b3cbe7e",
+        "bounds": [
+          [
+            -3.0999999046325684,
+            180.10000610351562
+          ],
+          [
+            626.1994018554688,
+            676.7999877929688
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -88.50000309944153,
+          67.3,
+          683.1494018554688
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -88.89999999999999,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -88.89999999999999,
+            71.75,
+            18.949999999999996
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            88.89999999999999,
+            71.75,
+            44.349999999999994
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            88.89999999999999,
+            71.75,
+            18.949999999999996
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-3-1",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 3,
+      "width": 1,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/3x1 Spacer blank.stl",
+        "sha256": "83ed41c411b85b327472e6d1729f3b76b56ce66d5f949e039b13dd7125d036b1",
+        "bounds": [
+          [
+            826.7000122070312,
+            857.5
+          ],
+          [
+            526.1994018554688,
+            602.2000122070312
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -842.1000061035156,
+          67.3,
+          608.5494018554688
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -12.7,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -12.7,
+            71.75,
+            44.34999999999998
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -12.7,
+            71.75,
+            18.94999999999998
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            12.7,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            12.7,
+            71.75,
+            44.34999999999998
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            12.7,
+            71.75,
+            18.94999999999998
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-3-2",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 3,
+      "width": 2,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/3x2 Spacer blank.stl",
+        "sha256": "ec9f2d842450972a3e9ae5a2d97d335cf735ecc9523cb3b9eacfc9d8d2288178",
+        "bounds": [
+          [
+            750.5,
+            806.7000122070312
+          ],
+          [
+            526.1994018554688,
+            602.2000122070312
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -778.6000061035156,
+          67.3,
+          608.5494018554688
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -25.4,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -25.4,
+            71.75,
+            44.34999999999998
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -25.4,
+            71.75,
+            18.94999999999998
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            25.4,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            25.4,
+            71.75,
+            44.34999999999998
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            25.4,
+            71.75,
+            18.94999999999998
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-3-3",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 3,
+      "width": 3,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/3x3 Spacer blank.stl",
+        "sha256": "22e5d8f6fce7d1972f5f4c8e72bfee67ec8f104454ae763ed835bf1bbc55b315",
+        "bounds": [
+          [
+            648.9000244140625,
+            730.5
+          ],
+          [
+            526.1994018554688,
+            602.2000122070312
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -689.7000122070312,
+          67.3,
+          608.5494018554688
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -38.099999999999994,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -38.099999999999994,
+            71.75,
+            44.34999999999998
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -38.099999999999994,
+            71.75,
+            18.94999999999998
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            38.099999999999994,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            38.099999999999994,
+            71.75,
+            44.34999999999998
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            38.099999999999994,
+            71.75,
+            18.94999999999998
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-3-4",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 3,
+      "width": 4,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/3x4 Spacer blank.stl",
+        "sha256": "127565e0f6fd9548092776a0d415afdc394018fd0650a35da5ece96b1a98e4a8",
+        "bounds": [
+          [
+            521.9000244140625,
+            628.9000244140625
+          ],
+          [
+            526.1994018554688,
+            602.2000122070312
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -575.4000244140625,
+          67.3,
+          608.5494018554688
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -50.8,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -50.8,
+            71.75,
+            44.34999999999998
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -50.8,
+            71.75,
+            18.94999999999998
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            50.8,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            50.8,
+            71.75,
+            44.34999999999998
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            50.8,
+            71.75,
+            18.94999999999998
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-3-5",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 3,
+      "width": 5,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/3x5 Spacer blank.stl",
+        "sha256": "d1f3dd0c8a21a0272ec7a3fb82cd3d4cf6df70f8b89ed538c3b02443646962e9",
+        "bounds": [
+          [
+            371.8999938964844,
+            504.3000183105469
+          ],
+          [
+            526.1994018554688,
+            602.2000122070312
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -438.1000061035156,
+          67.3,
+          608.5494018554688
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -63.5,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -63.5,
+            71.75,
+            44.34999999999998
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -63.5,
+            71.75,
+            18.94999999999998
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            63.5,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            63.5,
+            71.75,
+            44.34999999999998
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            63.5,
+            71.75,
+            18.94999999999998
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-3-6",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 3,
+      "width": 6,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/3x6 Spacer blank.stl",
+        "sha256": "46e431675a693c1dea83edcef921075de7e87a4098738ea84fbc428a270a9199",
+        "bounds": [
+          [
+            196.5,
+            354.3000183105469
+          ],
+          [
+            526.1994018554688,
+            602.2000122070312
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -275.40000915527344,
+          67.3,
+          608.5494018554688
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -76.19999999999999,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -76.19999999999999,
+            71.75,
+            44.34999999999998
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -76.19999999999999,
+            71.75,
+            18.94999999999998
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            76.19999999999999,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            76.19999999999999,
+            71.75,
+            44.34999999999998
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            76.19999999999999,
+            71.75,
+            18.94999999999998
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-3-7",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 3,
+      "width": 7,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/3x7 Spacer blank.stl",
+        "sha256": "9b58810b72e9049fc9a51a09a406ca3bec67a7572cbce0bf9d75cafca8dae490",
+        "bounds": [
+          [
+            -3.9000000953674316,
+            179.3000030517578
+          ],
+          [
+            526.1994018554688,
+            602.2000122070312
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -87.70000147819519,
+          67.3,
+          608.5494018554688
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -88.89999999999999,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -88.89999999999999,
+            71.75,
+            44.34999999999998
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -88.89999999999999,
+            71.75,
+            18.94999999999998
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            88.89999999999999,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            88.89999999999999,
+            71.75,
+            44.34999999999998
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            88.89999999999999,
+            71.75,
+            18.94999999999998
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-4-1",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 4,
+      "width": 1,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/4x1 Spacer blank.stl",
+        "sha256": "d913505a8f43f16b2c4fedf6985c44f369cc3271ebbda9d6b62a67361ef38b2f",
+        "bounds": [
+          [
+            826.700001697747,
+            857.4998436260712
+          ],
+          [
+            526.200000000003,
+            627.600000000003
+          ],
+          [
+            2.5499999999403706,
+            8.699999999962559
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -842.0999226619091,
+          67.3,
+          633.950000000003
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -12.7,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -12.7,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -12.7,
+            71.75,
+            44.34999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -12.7,
+            71.75,
+            18.950000000000003
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            12.7,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            12.7,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            12.7,
+            71.75,
+            44.34999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            12.7,
+            71.75,
+            18.950000000000003
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-4-2",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 4,
+      "width": 2,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/4x2 Spacer blank.stl",
+        "sha256": "6782f6ec87f04670493212b8bd755815e97f5966f1ac96722379a156c46beb8a",
+        "bounds": [
+          [
+            750.5000016977473,
+            806.6998436260716
+          ],
+          [
+            526.200000000003,
+            627.600000000003
+          ],
+          [
+            2.5499999999403706,
+            8.699999999962559
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -778.5999226619094,
+          67.3,
+          633.950000000003
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -25.4,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -25.4,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -25.4,
+            71.75,
+            44.34999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -25.4,
+            71.75,
+            18.950000000000003
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            25.4,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            25.4,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            25.4,
+            71.75,
+            44.34999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            25.4,
+            71.75,
+            18.950000000000003
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-4-3",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 4,
+      "width": 3,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/4x3 Spacer blank.stl",
+        "sha256": "9719bd196c81f59ea2989005249b5d7729cfba63bab0b6d073ea88be9a785f89",
+        "bounds": [
+          [
+            648.9000016977475,
+            730.4998436260718
+          ],
+          [
+            526.200000000003,
+            627.600000000003
+          ],
+          [
+            2.5499999999403706,
+            8.699999999962559
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -689.6999226619096,
+          67.3,
+          633.950000000003
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -38.099999999999994,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -38.099999999999994,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -38.099999999999994,
+            71.75,
+            44.34999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -38.099999999999994,
+            71.75,
+            18.950000000000003
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            38.099999999999994,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            38.099999999999994,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            38.099999999999994,
+            71.75,
+            44.34999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            38.099999999999994,
+            71.75,
+            18.950000000000003
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-4-4",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 4,
+      "width": 4,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/4x4 Spacer blank.stl",
+        "sha256": "5eabdbc29a4d0cd194fc6663ab908e9f1e3ee29ee2381b4027fd6606ab879d1a",
+        "bounds": [
+          [
+            521.9000016977468,
+            628.8998436260711
+          ],
+          [
+            526.200000000003,
+            627.600000000003
+          ],
+          [
+            2.5499999999403706,
+            8.699999999962559
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -575.3999226619089,
+          67.3,
+          633.950000000003
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -50.8,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -50.8,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -50.8,
+            71.75,
+            44.34999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -50.8,
+            71.75,
+            18.950000000000003
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            50.8,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            50.8,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            50.8,
+            71.75,
+            44.34999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            50.8,
+            71.75,
+            18.950000000000003
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-4-5",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 4,
+      "width": 5,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/4x5 Spacer blank.stl",
+        "sha256": "399a383495dcea6f0edbb37606064a4a404b595a9267182229a9d0771046812a",
+        "bounds": [
+          [
+            371.8999999999972,
+            504.2998419283215
+          ],
+          [
+            526.200000000003,
+            627.600000000003
+          ],
+          [
+            2.5499999999403706,
+            8.699999999962559
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -438.0999209641593,
+          67.3,
+          633.950000000003
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -63.5,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -63.5,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -63.5,
+            71.75,
+            44.34999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -63.5,
+            71.75,
+            18.950000000000003
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            63.5,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            63.5,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            63.5,
+            71.75,
+            44.34999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            63.5,
+            71.75,
+            18.950000000000003
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-4-6",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 4,
+      "width": 6,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/4x6 Spacer blank.stl",
+        "sha256": "3192dd69416190b34cc007141302d32b5f269601147b81032abd718ab3f07c4f",
+        "bounds": [
+          [
+            196.4999999999962,
+            354.2998419283206
+          ],
+          [
+            526.200000000003,
+            627.600000000003
+          ],
+          [
+            2.5499999999403706,
+            8.699999999962559
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -275.39992096415835,
+          67.3,
+          633.950000000003
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -76.19999999999999,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -76.19999999999999,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -76.19999999999999,
+            71.75,
+            44.34999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -76.19999999999999,
+            71.75,
+            18.950000000000003
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            76.19999999999999,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            76.19999999999999,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            76.19999999999999,
+            71.75,
+            44.34999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            76.19999999999999,
+            71.75,
+            18.950000000000003
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "shelf-4-7",
+      "kind": "centerpiece",
+      "label": "Shelf",
+      "family": "Shelf",
+      "description": "A horizontal shelf on paired angle supports. Connection pins are built into the plate.",
+      "height": 4,
+      "width": 7,
+      "dimensionLabel": "Depth",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "shelf"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/4x7 Spacer blank.stl",
+        "sha256": "e8d161dfff782c049ceb40f96805e1705a8537a8f0517b4a01d9de6e944a801f",
+        "bounds": [
+          [
+            -3.9000000000021133,
+            179.29984192832228
+          ],
+          [
+            526.200000000003,
+            627.600000000003
+          ],
+          [
+            2.5499999999403706,
+            8.699999999962559
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "translation": [
+          -87.69992096416009,
+          67.3,
+          633.950000000003
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -88.89999999999999,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -88.89999999999999,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -88.89999999999999,
+            71.75,
+            44.34999999999999
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -88.89999999999999,
+            71.75,
+            18.950000000000003
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            88.89999999999999,
+            71.75,
+            95.14999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            88.89999999999999,
+            71.75,
+            69.74999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            88.89999999999999,
+            71.75,
+            44.34999999999999
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            88.89999999999999,
+            71.75,
+            18.950000000000003
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
       "id": "spacer_blank-1-1",
       "kind": "centerpiece",
       "label": "Blank plate",

@@ -8,13 +8,13 @@ const centerId = 'spacer_clip-on-2-3';
 test('every reviewed centerpiece has a complete assembly for its supported panel', () => {
   validateCatalog(catalog);
   for (const center of catalog.parts.filter(p => p.kind === 'centerpiece')) for (const panel of center.panel) {
-    const assemblies = compatibleAssemblies(catalog, center.id, panel);
+    const assemblies = compatibleAssemblies(catalog, center.id, panel, center.mounts[0]);
     assert.ok(assemblies.length, center.id);
     for (const a of assemblies) {
       assert.equal(a.parts[1].part.side, 'left');
       assert.equal(a.parts[2].part.side, 'right');
       assert.equal(a.parts[1].part.pair, a.parts[2].part.pair);
-      assert.ok(a.parts[1].part.height >= center.height);
+      assert.ok((center.mounts[0] === 'shelf' ? a.parts[1].part.depth : a.parts[1].part.height) >= center.height);
     }
   }
 });
@@ -89,15 +89,28 @@ test('invalid metadata fails closed', () => {
 import {panelLayout} from '../panel.js';
 test('all seated catches line up with real slot openings on the two-inch row grid', () => {
   for (const center of catalog.parts.filter(p => p.kind === 'centerpiece')) {
-    for (const assembly of compatibleAssemblies(catalog, center.id, center.panel[0])) {
+    for (const assembly of compatibleAssemblies(catalog, center.id, center.panel[0], center.mounts[0])) {
       const layout = panelLayout(assembly);
       for (const hook of layout.hooks) {
-        assert.equal(hook.position[2], 0);
+        assert.ok(Math.abs(hook.position[2]) < .001);
         const matching = layout.slots.find(slot => Math.abs(slot.x-hook.position[0]) < .001 && Math.abs(slot.y-hook.position[1]) < .001);
         assert.ok(matching, `${assembly.id}: catch without panel slot`);
         assert.ok(matching.width >= hook.bladeWidth);
       }
       assert.equal(layout.thickness,1.2);
     }
+  }
+});
+
+test('shelves use horizontal plates, depth-matched angle supports, and seated catches', () => {
+  for (const depth of [2, 3, 4]) {
+    const [assembly] = compatibleAssemblies(catalog, `shelf-${depth}-4`, 'vertical', 'shelf');
+    assert.ok(assembly);
+    assert.equal(assembly.parts[1].part.depth, depth);
+    assert.equal(assembly.parts[2].part.depth, depth);
+    assert.deepEqual(assembly.center.transform.rotation, [-90, 0, 0]);
+    assert.equal(billOfMaterials(assembly).reduce((n,p) => n+p.quantity,0), 3);
+    assert.ok(assembly.parts.every(p => Math.abs(p.position[2]) < .001));
+    assert.equal(compatibleAssemblies(catalog, `shelf-${depth}-4`, 'vertical', 'upright').length,0);
   }
 });

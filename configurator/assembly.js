@@ -57,19 +57,19 @@ export function compatibleAssemblies(catalog, centerId, panel = 'vertical', moun
   const center = catalog.parts.find(p => p.id === centerId && p.kind === 'centerpiece');
   if (!center || !center.panel.includes(panel) || !center.mounts.includes(mount)) return [];
   const candidates = catalog.parts.filter(p => p.kind === 'sidepiece' && p.panel.includes(panel) && p.mounts.includes(mount));
-  const placements = side => candidates.filter(p => p.side === side).map(part => ({part, position: findPlacement(center.ports.filter(p => p.side === side), part.ports, catalog.interfaces)})).filter(p => p.position);
+  const placements = side => candidates.filter(p => p.side === side).map(part => ({part, position: findPlacement(center.ports.filter(p => p.side === side), part.ports, catalog.interfaces)})).filter(p => p.position && Math.abs(p.position[2]) < .001);
   const assemblies = [];
   for (const left of placements('left')) for (const right of placements('right')) {
     // A declared pair key constrains asymmetric bracket families, without filename conventions.
     if (left.part.pair !== right.part.pair) continue;
-    assemblies.push({id: `${center.id}:${left.part.id}:${right.part.id}:${panel}:${mount}`, center, panel, mount, label: `${left.part.family} · ${left.part.height} in`, parts: [
+    assemblies.push({id: `${center.id}:${left.part.id}:${right.part.id}:${panel}:${mount}`, center, panel, mount, label: `${left.part.family} · ${left.part.height} in${left.part.depth ? ` high × ${left.part.depth} in deep` : ''}`, parts: [
       {part: center, position: [0, 0, 0], rotation: [0, 0, 0]},
       {part: left.part, position: left.position, rotation: [0, 0, 0]},
       {part: right.part, position: right.position, rotation: [0, 0, 0]},
       ...(center.dependencies ?? []).map(dep => ({part: catalog.parts.find(p => p.id === dep.part), position: dep.position, rotation: dep.rotation, quantity: dep.quantity})),
     ]});
   }
-  return assemblies.sort((a, b) => a.parts[1].part.height - b.parts[1].part.height || a.id.localeCompare(b.id));
+  return assemblies.sort((a, b) => a.parts[1].part.height - b.parts[1].part.height || (a.parts[1].part.depth ?? 0) - (b.parts[1].part.depth ?? 0) || a.id.localeCompare(b.id));
 }
 
 export function billOfMaterials(assembly) {

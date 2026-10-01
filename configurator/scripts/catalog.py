@@ -39,6 +39,32 @@ def generate():
                       'mounts': ['upright'], 'asset': a, 'transform': {'rotation': rotation, 'translation': [0, -datum_y, -wall_x if side == 'left' else wall_x]},
                       'panelAttachments': [{'position': [-1.1 if side == 'left' else 1.1, h * 25.4 - 12.8 - r * 50.8, 0], 'bladeWidth': 2.2} for r in range((h + 1) // 2)],
                       'ports': [{**port(side, r, -1.1 if side == 'left' else 1.1), 'normal': [1 if side == 'left' else -1, 0, 0]} for r in range(h)], 'dependencies': []})
+    # Shelf supports: reviewed 3-high flat angle brackets, in 2/3/4-inch depths.
+    for depth in (2, 3, 4):
+        for side in ('left', 'right'):
+            path = ROOT / f'Sidepieces/Angle_brackets/3x{depth} Angle Bracket Flat {side.title()}.stl'
+            a = asset(path)
+            b = a['bounds']
+            wall_x = b[0][0] + 10 if side == 'left' else b[0][1] - 10
+            datum_y = b[1][1] - 3 * 25.4 - 6.4
+            parts.append({'id': f'angle-3-{depth}-{side}', 'kind': 'sidepiece', 'label': f'3×{depth} Angle Support {side.title()}',
+                          'family': 'Angle supports', 'pair': f'angle-3-{depth}', 'height': 3, 'depth': depth, 'side': side,
+                          'panel': ['vertical', 'horizontal'], 'mounts': ['shelf'],
+                          'asset': a, 'transform': {'rotation': [0, -90 if side == 'left' else 90, 0], 'translation': [0, -datum_y, -wall_x if side == 'left' else wall_x]},
+                          'panelAttachments': [{'position': [-1.1 if side == 'left' else 1.1, 63.4 - row * 50.8, 0], 'bladeWidth': 2.2} for row in range(2)],
+                          'ports': [{'interface': 'ddd-grid-pin-v1', 'side': side, 'position': [-1.1 if side == 'left' else 1.1, 71.75, 18.95 + row * 25.4], 'normal': [1 if side == 'left' else -1, 0, 0]} for row in range(depth)],
+                          'dependencies': []})
+    for depth in (2, 3, 4):
+        for width in range(1, 8):
+            a = asset(ROOT / f'Centerpieces/Spacer_blank/{depth}x{width} Spacer blank.stl')
+            b = a['bounds']
+            front = 6.35 + depth * 25.4 - .2
+            parts.append({'id': f'shelf-{depth}-{width}', 'kind': 'centerpiece', 'label': 'Shelf', 'family': 'Shelf',
+                          'description': 'A horizontal shelf on paired angle supports. Connection pins are built into the plate.',
+                          'height': depth, 'width': width, 'dimensionLabel': 'Depth', 'panel': ['vertical', 'horizontal'], 'mounts': ['shelf'],
+                          'asset': a, 'transform': {'rotation': [-90, 0, 0], 'translation': [-(b[0][0]+b[0][1])/2, 67.3, b[1][0]+front]},
+                          'ports': [{'interface': 'ddd-grid-pin-v1', 'side': side, 'position': [(-1 if side == 'left' else 1)*width*25.4/2, 71.75, front - (12.6 + row * 25.4)], 'normal': [-1 if side == 'left' else 1, 0, 0]} for side in ('left', 'right') for row in range(depth)],
+                          'dependencies': []})
     families = [('Spacer_blank', 'Blank plate', 'A simple upright plate with integral connection pins.', None),
                 ('Spacer_clip-on', 'Belt clip holder', 'An offset edge for tape measures and other belt clips.', None),
                 ('Locking_spacer', 'Locking plate', 'A threaded plate that locks the assembly to a vertical panel.', 'vertical'),

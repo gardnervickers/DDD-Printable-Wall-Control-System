@@ -155,7 +155,7 @@ function familyList() {
     const icon = document.createElement('span'); icon.className = 'icon'; icon.textContent = name.includes('clip') ? '⊏' : name.includes('locking') || name.includes('Locking') ? '⊞' : '▱';
     const text = document.createElement('span');
     const strong = document.createElement('strong'); strong.textContent = name;
-    const small = document.createElement('small'); small.textContent = name.includes('panel') ? 'For horizontal panels' : name === 'Belt clip holder' ? 'Separate pins included' : name === 'Locking plate' ? 'Locking screw included' : 'Integral connection pins';
+    const small = document.createElement('small'); small.textContent = name.includes('panel') ? 'For horizontal panels' : name === 'Shelf' ? 'Horizontal · Angle supports' : name === 'Belt clip holder' ? 'Separate pins included' : name === 'Locking plate' ? 'Locking screw included' : 'Integral connection pins';
     text.append(strong, small); button.append(icon, text);
     button.onclick = () => {family = name; dimensions();};
     return button;
@@ -174,8 +174,9 @@ function dimensions(preferredHeight = $('height').value || 2, preferredWidth = $
 }
 function selectCenter() {
   center = catalog.parts.find(p => p.kind === 'centerpiece' && p.family === family && p.height === Number($('height').value) && p.width === Number($('width').value));
+  $('height-label').textContent = center?.dimensionLabel ?? 'Height';
   $('description').textContent = center?.description ?? 'No model in this size.';
-  choices = center ? compatibleAssemblies(catalog, center.id, $('panel').value) : [];
+  choices = center ? compatibleAssemblies(catalog, center.id, $('panel').value, center.mounts[0]) : [];
   assembly = choices[0] ?? null;
   updateAssembly();
 }
@@ -188,7 +189,7 @@ function updateAssembly() {
     button.append(text, recommended); button.onclick = () => {assembly = choice; updateAssembly();}; return button;
   }));
   if (!choices.length) $('sidepieces').textContent = 'This centerpiece needs a different panel orientation.';
-  $('assembly-name').textContent = center ? `${center.label} · ${center.height}×${center.width}` : 'Choose a centerpiece';
+  $('assembly-name').textContent = center ? `${center.label} · ${center.height}×${center.width}${center.dimensionLabel === 'Depth' ? ' depth × width' : ''}` : 'Choose a centerpiece';
   $('size-caption').textContent = center ? `${(center.width * 25.4).toFixed(1)} mm grid span` : '';
   $('download').disabled = !assembly;
   $('download-status').textContent = 'Original STL files + assembly guide';
@@ -220,7 +221,7 @@ async function download() {
     if (!license.ok) throw new Error('Could not load upstream license.');
     zip.file('LICENSE-DDD.txt', await license.text());
     zip.file('manifest.json', JSON.stringify(manifest, null, 2));
-    zip.file('ASSEMBLY.md', `# ${selected.center.label} (${selected.center.height}×${selected.center.width})\n\nPanel: ${selected.panel} Wall Control panel\nMounting: ${selected.mount}\n\n## Print these parts\n\n${manifest.files.map(p => `- ${p.quantity} × ${p.file.split('/').at(-1)}`).join('\n')}\n\n## Assembly\n\n1. Print the listed quantities. These files are the original upstream STLs, with their original printing orientations.\n2. If connection pins are listed, press them into the centerpiece edge sockets first.\n3. Press the centerpiece between the matching left and right sidepieces.\n4. Engage the sidepiece catches in the Wall Control slots.\n5. If a locking screw is listed, thread it into a hole aligned with the panel using a quarter-inch square drive.\n\nConnections are intentionally press-fit. Test a small set with your printer before making a large batch. The preview is not a load-rating or physical-fit certification. The background panel is illustrative.\n\n## Provenance\n\nDDD Printable Wall Control System by Allen Derusha\nhttps://github.com/aderusha/DDD-Printable-Wall-Control-System\nUpstream revision: ${catalog.upstream}\nMIT license included. Each STL's SHA-256 and required quantity are in manifest.json.\n`);
+    zip.file('ASSEMBLY.md', `# ${selected.center.label} (${selected.center.height}×${selected.center.width})\n\nPanel: ${selected.panel} Wall Control panel\nMounting: ${selected.mount}\n\n## Print these parts\n\n${manifest.files.map(p => `- ${p.quantity} × ${p.file.split('/').at(-1)}`).join('\n')}\n\n## Assembly\n\n1. Print the listed quantities. These files are the original upstream STLs, with their original printing orientations.\n2. If connection pins are listed, press them into the centerpiece edge sockets first.\n3. Press the centerpiece between the matching left and right sidepieces.${selected.mount === 'shelf' ? ' The shelf mounts horizontally in the top sockets of the angle supports; the plate top is flush with the support tops.' : ''}\n4. Engage the sidepiece catches in the Wall Control slots.\n5. If a locking screw is listed, thread it into a hole aligned with the panel using a quarter-inch square drive.\n\nConnections are intentionally press-fit. Test a small set with your printer before making a large batch. The preview is not a load-rating or physical-fit certification. The background panel is illustrative.\n\n## Provenance\n\nDDD Printable Wall Control System by Allen Derusha\nhttps://github.com/aderusha/DDD-Printable-Wall-Control-System\nUpstream revision: ${catalog.upstream}\nMIT license included. Each STL's SHA-256 and required quantity are in manifest.json.\n`);
     const blob = await zip.generateAsync({type: 'blob', compression: 'DEFLATE'});
     const url = URL.createObjectURL(blob); const link = document.createElement('a');
     link.href = url; link.download = `wall-control-${selected.center.id}-${selected.parts[1].part.id}.zip`; link.click();
@@ -236,7 +237,7 @@ try {
   catalog = validateCatalog(await response.json());
   try {setupPreview();} catch (error) {status('3D preview unavailable. Part selection and downloads still work.'); console.error(error);}
   family = 'Belt clip holder'; dimensions(2, 3);
-  $('coverage').textContent = `${catalog.parts.filter(p => p.kind === 'centerpiece').length} centerpieces · Upright mounts · Flat brackets`;
+  $('coverage').textContent = `${catalog.parts.filter(p => p.kind === 'centerpiece').length} centerpieces · Upright + shelf mounts`;
   $('height').onchange = () => dimensions(); $('width').onchange = selectCenter; $('panel').onchange = selectCenter; $('search').oninput = familyList;
   $('assembled').onclick = () => {exploded = false; $('assembled').classList.add('active'); $('exploded').classList.remove('active'); $('assembled').setAttribute('aria-pressed','true'); $('exploded').setAttribute('aria-pressed','false'); pose();};
   $('exploded').onclick = () => {exploded = true; $('assembled').classList.remove('active'); $('exploded').classList.add('active'); $('assembled').setAttribute('aria-pressed','false'); $('exploded').setAttribute('aria-pressed','true'); pose();};
