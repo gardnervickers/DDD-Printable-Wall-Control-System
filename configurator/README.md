@@ -22,7 +22,7 @@ The catalog covers upright assemblies and horizontal shelves. Other angle varian
 
 ## Add a part
 
-See [the catalog contract](catalog/README.md). Runtime matching consumes declared connection frames, panel patterns, mounting arrangements, and paired bracket variants. It does not parse filenames or compare nominal dimensions to establish fit.
+Start with the [extension walkthrough and runnable example](EXTENDING.md), then refer to [the catalog contract](catalog/README.md). Runtime matching consumes declared connection frames, panel patterns, mounting arrangements, and paired bracket variants. It does not parse filenames or compare nominal dimensions to establish fit.
 
 Add new part records and interface definitions to `catalog/custom-parts.json`, then run `python3 configurator/scripts/catalog.py`. This merges the reviewed upstream families with your authored additions into `catalog/parts.json`, the generated runtime catalog. The importer rejects duplicate IDs and interface overrides. Do not hand-edit the generated file.
 

@@ -53,7 +53,7 @@ class MeshChecks(unittest.TestCase):
             for port in part['ports']:
                 x, y, z = port['position']
                 self.assertFalse(inside(vs, (x, y, z)), (part['id'], 'socket center'))
-                if part['family'] == 'Flat brackets':
+                if 'depth' not in part:
                     self.assertFalse(inside(vs, (x, y + 4.5, z)), (part['id'], 'socket height'))
                     self.assertTrue(inside(vs, (x, y + 6, z)), (part['id'], 'socket end wall'))
                     self.assertTrue(inside(vs, (x, y, z + 3)), (part['id'], 'socket backing'))
@@ -68,7 +68,7 @@ class MeshChecks(unittest.TestCase):
             if part['kind'] != 'sidepiece': continue
             vs = normalized_vertices(part)
             self.assertAlmostEqual(min(v[2] for v in vs), -10, places=2)
-            self.assertAlmostEqual(max(v[2] for v in vs), 8.7 if part['family'] == 'Flat brackets' else part['depth'] * 25.4 + 6.35, places=2)
+            self.assertAlmostEqual(max(v[2] for v in vs), 8.7 if 'depth' not in part else part['depth'] * 25.4 + 6.35, places=2)
             self.assertEqual(len(part['panelAttachments']), (part['height'] + 1) // 2)
             for hook in part['panelAttachments']:
                 x, y, _ = hook['position']

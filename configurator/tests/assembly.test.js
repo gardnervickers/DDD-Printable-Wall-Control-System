@@ -114,3 +114,23 @@ test('shelves use horizontal plates, depth-matched angle supports, and seated ca
     assert.equal(compatibleAssemblies(catalog, `shelf-${depth}-4`, 'vertical', 'upright').length,0);
   }
 });
+
+
+test('the documented extension example adds a selectable centerpiece and complete support pair', () => {
+  const example = JSON.parse(readFileSync(new URL('../examples/custom-parts.json', import.meta.url)));
+  const extended = structuredClone(catalog);
+  for (const part of example.parts) {
+    const installed = extended.parts.find(p => p.id === part.id);
+    if (installed) assert.deepEqual(installed, part);
+    else extended.parts.push(part);
+  }
+  Object.assign(extended.interfaces, example.interfaces);
+  validateCatalog(extended);
+  const assembly = compatibleAssemblies(extended, 'example-centerpiece').find(a => a.parts[1].part.id === 'example-support-left');
+  assert.ok(assembly);
+  assert.equal(assembly.parts[2].part.id, 'example-support-right');
+  assert.equal(billOfMaterials(assembly).reduce((n,p) => n+p.quantity,0), 3);
+  for (const part of example.parts) {
+    assert.ok(catalog.parts.some(original => original.asset.file === part.asset.file && original.asset.sha256 === part.asset.sha256));
+  }
+});

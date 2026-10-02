@@ -1,0 +1,284 @@
+{
+  "interfaces": {},
+  "parts": [
+    {
+      "id": "example-centerpiece",
+      "kind": "centerpiece",
+      "label": "Example centerpiece",
+      "description": "Documentation example using the unchanged 2\u00d73 blank plate.",
+      "family": "Example centerpiece",
+      "height": 2,
+      "width": 3,
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "upright"
+      ],
+      "asset": {
+        "file": "Centerpieces/Spacer_blank/2x3 Spacer blank.stl",
+        "sha256": "4b713bb3028a322331ee75c159f1c73529350e4f8321f271abad3b603cd5c4b0",
+        "bounds": [
+          [
+            648.9000244140625,
+            730.5
+          ],
+          [
+            626.1994018554688,
+            676.7999877929688
+          ],
+          [
+            2.549999952316284,
+            8.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "translation": [
+          -689.7000122070312,
+          -626.1994018554688,
+          0
+        ]
+      },
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -38.099999999999994,
+            12.6,
+            4.45
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -38.099999999999994,
+            38.0,
+            4.45
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            38.099999999999994,
+            12.6,
+            4.45
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            38.099999999999994,
+            38.0,
+            4.45
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "example-support-left",
+      "kind": "sidepiece",
+      "label": "Example left support",
+      "family": "Example supports",
+      "pair": "example-support-pair",
+      "height": 2,
+      "side": "left",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "upright"
+      ],
+      "asset": {
+        "file": "Sidepieces/Flats/2x0 Flat Left.stl",
+        "sha256": "6856031b45a597ae2cfb4300ad9f5ff83babc41e5d6c159fdf2c33893100a915",
+        "bounds": [
+          [
+            57.5,
+            76.19999694824219
+          ],
+          [
+            3.385462730449562e-28,
+            57.20000076293945
+          ],
+          [
+            -1.934722591552876e-13,
+            13.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          0,
+          -90,
+          0
+        ],
+        "translation": [
+          0,
+          -7.629394556118996e-07,
+          -67.5
+        ]
+      },
+      "panelAttachments": [
+        {
+          "position": [
+            -1.1,
+            38.0,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -1.1,
+            12.6,
+            4.45
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "left",
+          "position": [
+            -1.1,
+            38.0,
+            4.45
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "example-support-right",
+      "kind": "sidepiece",
+      "label": "Example right support",
+      "family": "Example supports",
+      "pair": "example-support-pair",
+      "height": 2,
+      "side": "right",
+      "panel": [
+        "vertical",
+        "horizontal"
+      ],
+      "mounts": [
+        "upright"
+      ],
+      "asset": {
+        "file": "Sidepieces/Flats/2x0 Flat Right.stl",
+        "sha256": "f6c9ab89867118b3a8053a8498e1f290462b3db04393f7f73959cc3b6f984e18",
+        "bounds": [
+          [
+            114.30000305175781,
+            133.0
+          ],
+          [
+            0.0,
+            57.20000076293945
+          ],
+          [
+            0.0,
+            13.699999809265137
+          ]
+        ]
+      },
+      "transform": {
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "translation": [
+          0,
+          -7.629394556118996e-07,
+          123.0
+        ]
+      },
+      "panelAttachments": [
+        {
+          "position": [
+            1.1,
+            38.0,
+            0
+          ],
+          "bladeWidth": 2.2
+        }
+      ],
+      "ports": [
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            1.1,
+            12.6,
+            4.45
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "interface": "ddd-grid-pin-v1",
+          "side": "right",
+          "position": [
+            1.1,
+            38.0,
+            4.45
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ]
+        }
+      ],
+      "dependencies": []
+    }
+  ]
+}

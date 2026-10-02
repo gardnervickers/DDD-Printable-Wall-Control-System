@@ -1,6 +1,6 @@
 # Part catalog contract (v1)
 
-Add authored records to `custom-parts.json`; the importer merges them into the generated `parts.json`.
+Add authored records to `custom-parts.json`; the importer merges them into the generated `parts.json`. For a complete worked example and verification commands, see [Extending Assembly Studio](../EXTENDING.md).
 
 All dimensions and positions are millimeters. Installed coordinates use X across the assembly, Y up, and Z away from the illustrative panel. Rotations use degrees and XYZ Euler order. The original STL is always downloaded unchanged.
 

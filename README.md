@@ -2,7 +2,7 @@
 
 ## Assembly Studio (fork addition)
 
-Configure upright assemblies with compatible sidepieces, a 3D preview, and a complete STL print kit. [Run the configurator and see current coverage](configurator/README.md). New parts use a [documented connection catalog](configurator/catalog/README.md).
+Configure upright assemblies and shelves with compatible sidepieces, a 3D preview, and a complete STL print kit. [Run the configurator and see current coverage](configurator/README.md). Follow the [extension walkthrough](configurator/EXTENDING.md) to add centerpieces, paired sidepieces, and print-kit accessories.
 
 ![Installed DDD Printable Wall Control System](https://github.com/aderusha/DDD-Printable-Wall-Control-System/blob/main/images/installed.jpg?raw=true)
 

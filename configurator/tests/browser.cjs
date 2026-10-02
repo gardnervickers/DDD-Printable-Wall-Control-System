@@ -57,6 +57,27 @@ const out = process.env.UI_TEST_OUTPUT || path.join(root, '.local/ui-tests');
   assert.match(await page.locator('#sidepieces').textContent(),/different panel orientation/);
   await page.locator('#panel').selectOption('horizontal'); await waitPreview();
   assert.equal(await page.locator('#total').textContent(),'4');
+  await page.getByRole('button',{name:/^Shelf/}).click();
+  await page.locator('#height').selectOption('3'); await page.locator('#width').selectOption('4'); await waitPreview();
+  assert.equal(await page.locator('#height-label').textContent(),'Depth');
+  assert.equal(await page.locator('#total').textContent(),'3');
+  assert.equal(await page.locator('.sidepiece').count(),2);
+  assert.match(await page.locator('.sidepiece').first().textContent(),/3 in high × 3 in deep/);
+  const shelfDownload = page.waitForEvent('download'); await page.locator('#download').click();
+  const shelfFile = await shelfDownload;
+  const shelfPath = path.join(out,'shelf-kit.zip'); await shelfFile.saveAs(shelfPath);
+  const shelfZip = await JSZip.loadAsync(await fs.readFile(shelfPath));
+  const shelfManifest = JSON.parse(await shelfZip.file('manifest.json').async('string'));
+  assert.equal(shelfManifest.mount,'shelf');
+  assert.equal(shelfManifest.files.length,3);
+  assert.equal(shelfManifest.files.reduce((n,f)=>n+f.quantity,0),3);
+  for (const file of shelfManifest.files) {
+    const bytes = await shelfZip.file(file.file).async('nodebuffer');
+    assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),file.sha256);
+    assert.deepEqual(bytes,await fs.readFile(path.join(root,file.source)));
+  }
+  assert.match(await shelfZip.file('ASSEMBLY.md').async('string'),/mounts horizontally/);
+  await page.screenshot({path:path.join(out,'shelf.png'),fullPage:true});
   await page.locator('#search').fill('unfindable');
   assert.equal(await page.locator('#no-results').isVisible(),true);
   await page.locator('#search').fill('');
