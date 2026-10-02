@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ee"><title>Wall Control — Assembly Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three/three.module.min.js"}}</script>
+  <script src="vendor/jszip.min.js"></script>
+</head>
+<body>
+<header><a class="brand" href="./"><span class="brand-mark">▦</span> WALL / CONTROL <span class="brand-sub">ASSEMBLY STUDIO</span></a><a class="source" href="https://github.com/gardnervickers/DDD-Printable-Wall-Control-System" target="_blank" rel="noreferrer">View the project ↗</a></header>
+<main>
+  <div class="intro"><div><span class="eyebrow">A PLACE FOR EVERYTHING</span><h1>Build your next<br><em>wall upgrade.</em></h1></div><p>Choose what you want to hang.<br>We’ll find the pieces that fit together.</p></div>
+  <div class="workspace">
+    <aside class="config">
+      <section><div class="section-title"><span class="step">01</span><h2>Choose a centerpiece</h2></div><label class="search-label"><span>⌕</span><input id="search" type="search" placeholder="Find a centerpiece…" aria-label="Search centerpieces"></label><div id="families" class="families"></div><p id="no-results" hidden>No centerpieces match your search.</p><div class="dimensions"><label><span id="height-label">Height</span><select id="height"></select></label><label>Width<select id="width"></select></label></div><p id="description" class="hint"></p></section>
+      <section><div class="section-title"><span class="step">02</span><h2>Find your fit</h2></div><label class="field-label">Wall Control panel<select id="panel"><option value="vertical">Vertical panel</option><option value="horizontal">Horizontal panel</option></select></label><div class="fit-heading"><span>Compatible sidepiece pairs</span><span id="pair-count" class="badge"></span></div><div id="sidepieces" class="sidepieces"></div><p class="hint">Both sides are included. Connection pins and locking screws are added automatically.</p></section>
+    </aside>
+    <section class="preview" aria-label="Assembled 3D preview"><div class="preview-top"><div><span class="eyebrow">YOUR ASSEMBLY</span><h2 id="assembly-name">Loading catalog…</h2></div><span class="live-badge"><i></i>3D PREVIEW</span></div><div id="viewport"></div><div id="preview-status" role="status" aria-live="polite">Loading models…</div><div class="preview-bottom"><div class="view-buttons"><button id="assembled" class="active" aria-pressed="true">Assembled</button><button id="exploded" aria-pressed="false">Exploded</button></div><button id="rear" class="reset">Rear view</button><button id="reset" class="reset">↻ Reset view</button></div><div class="preview-caption">Drag to rotate · Scroll to zoom <span id="size-caption"></span></div></section>
+    <aside class="kit"><span class="eyebrow">READY FOR YOUR PRINTER</span><h2>Your print kit</h2><p class="hint">Every part. One download.</p><div id="bom"></div><div class="kit-total"><span>Total pieces</span><strong id="total">—</strong></div><button id="download" class="download" disabled>↓ Download print kit</button><p id="download-status" class="hint" role="status" aria-live="polite">Original STL files + assembly guide</p><div class="notes"><h3>A little room for precision</h3><p>These are press-fit connections. Print a small set first to check your printer’s fit.</p><p>Preview shows placement, not load capacity.</p></div></aside>
+  </div>
+  <footer><span>Based on Allen Derusha’s DDD Printable Wall Control System · MIT licensed</span><span id="coverage">Catalog loading…</span></footer>
+</main>
+<script type="module" src="app.js?v=2"></script>
+</body></html>

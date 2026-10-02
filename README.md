@@ -1,5 +1,9 @@
 # DDD Printable Wall Control System
 
+## Assembly Studio (fork addition)
+
+Configure upright assemblies and shelves with compatible sidepieces, a 3D preview, and a complete STL print kit. [Run the configurator and see current coverage](configurator/README.md). Follow the [extension walkthrough](configurator/EXTENDING.md) to add centerpieces, paired sidepieces, and print-kit accessories.
+
 ![Installed DDD Printable Wall Control System](https://github.com/aderusha/DDD-Printable-Wall-Control-System/blob/main/images/installed.jpg?raw=true)
 
 The DDD Printable Wall Control project provides a wide range of modular pegboard hangers for use with the [Wall Control powder-coated steel pegboard solutions available on Amazon](https://amzn.to/35emTsm).  After much research I landed on Wall Control as a durable, high-strength and low-price organization solution which works with existing 1/4" standard pegboard pegs.  The panels also add 1" slots which allows for greater strength and rigidity for compatible hangers.  I've found their panels to be inexpensive, well-made, and available in a range of colors and sizes.
